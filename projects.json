@@ -1,0 +1,1068 @@
+[
+  {
+    "name": "Vehicle maintenance system design & development (200+ vehicle fleet) for logistics provider",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "IT"
+    ],
+    "expertise": [
+      "Maintenance",
+      "IT/Digital Development"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Activity analysis setup and execution for large infrastructure/railway company",
+    "industries": [
+      "Infrastructure/Railway"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Unbundling of large electricity provider with new organization concept design",
+    "industries": [
+      "Energy/Utilities"
+    ],
+    "departments": [],
+    "expertise": [
+      "Organization Design",
+      "M&A/Carve-out"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Cash collection monitoring system design & development (4M EUR annually) for logistics provider",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Finance",
+      "IT"
+    ],
+    "expertise": [
+      "IT/Digital Development"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Category management process development for large Retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Category Management"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Category management implementation for Retailer (pricing, assortment, promotion, layouts)",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Category Management",
+      "Pricing"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "PMO tracking tool for large Telco provider",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "IT"
+    ],
+    "expertise": [
+      "PMO",
+      "IT/Digital Development"
+    ],
+    "capabilities": [
+      "Implementation",
+      "PMO"
+    ]
+  },
+  {
+    "name": "Growth tracking report for newly established markets (consumer goods)",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Reporting/BI",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Cost transparency modelling for furniture division of large SEE consumer goods producer",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "Cost Management"
+    ],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Financial reporting optimisation for logistics provider",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Reporting/BI"
+    ]
+  },
+  {
+    "name": "PMO for sales growth of large EU Telco via digital/SaaS solutions (3 countries, 600+ sales reps)",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Sales",
+      "IT"
+    ],
+    "expertise": [
+      "PMO"
+    ],
+    "capabilities": [
+      "PMO",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Optimized ordering system for retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Supply Chain"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Optimized logistics for construction material manufacturer",
+    "industries": [
+      "Construction Materials"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Supply Chain"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Fact-based supplier negotiations for DIY Retailer",
+    "industries": [
+      "Retail/DIY"
+    ],
+    "departments": [
+      "Sourcing"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Pricing strategy and pricing tool for Retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Pricing"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Optimized maintenance process and support function for large chemical manufacturer",
+    "industries": [
+      "Chemicals"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Maintenance"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Reporting development (customer, new business, churn) for logistics provider",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Reporting/BI",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Software specifications for invoicing of legal services",
+    "industries": [
+      "Legal Services"
+    ],
+    "departments": [
+      "Finance",
+      "IT"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Sales performance reporting system design & implementation for large bank",
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Implementation",
+      "Reporting/BI"
+    ]
+  },
+  {
+    "name": "Tableau dashboards for clinical patient care activity tracking (medication, diagnosis, devices, vitals)",
+    "industries": [
+      "Healthcare"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Clinical Operations",
+      "Reporting"
+    ],
+    "capabilities": [
+      "Implementation",
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Optimized operations, processes and organisation for large Construction company",
+    "industries": [
+      "Construction"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Organization Design"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Furniture division restructuring: due diligence and disinvestment scenario modelling for large home appliance manufacturer",
+    "industries": [
+      "Consumer Goods/Appliances"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "M&A",
+      "Restructuring"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Market research (Slovenia & Croatia) for large non-food retailer's international expansion",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [],
+    "expertise": [
+      "Market Research",
+      "Strategy"
+    ],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Sourcing negotiations using linear regression method for consumer goods provider",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Sourcing"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Sourcing and IT optimization for public holding (700k EUR EBITDA improvement on 80m EUR revenue)",
+    "industries": [
+      "Public Sector/Holding"
+    ],
+    "departments": [
+      "Sourcing",
+      "IT"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Restructuring plan development for DIY Retailer",
+    "industries": [
+      "Retail/DIY"
+    ],
+    "departments": [],
+    "expertise": [
+      "Restructuring"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "IT, HR & Sourcing strategy development for large conglomerate (1.5bn EUR, 60+ companies)",
+    "industries": [
+      "Conglomerate/Diversified"
+    ],
+    "departments": [
+      "IT",
+      "HR",
+      "Sourcing"
+    ],
+    "expertise": [
+      "Strategy"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Pricing strategy for 3PL logistics provider",
+    "industries": [
+      "Logistics/3PL"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Pricing"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Coupon prize game system development (50,000 entries)",
+    "industries": [],
+    "departments": [
+      "IT",
+      "Marketing"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Russian spirits market research to identify logistics strategy for spirit manufacturer",
+    "industries": [
+      "Consumer Goods/Spirits"
+    ],
+    "departments": [],
+    "expertise": [
+      "Market Research",
+      "Supply Chain"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Financial and operating analysis for tourism fund (8+ companies)",
+    "industries": [
+      "Tourism"
+    ],
+    "departments": [
+      "Finance",
+      "Operations"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Route/round project optimisation (119 to 74) for logistics provider",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Network Optimization"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Strategic category management for Retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Category Management",
+      "Strategy"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "On-demand analytical solutions and reporting for advertising agency",
+    "industries": [
+      "Advertising/Media"
+    ],
+    "departments": [],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Reporting/BI"
+    ]
+  },
+  {
+    "name": "Motorcycle carbon parts production system design & development",
+    "industries": [
+      "Manufacturing/Automotive"
+    ],
+    "departments": [
+      "IT",
+      "Operations"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Inventory reduction assessment: warehouse (-64%) and store network (-52%) for large Telco",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Supply Chain",
+      "Inventory Management"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Portfolio simplification for large Telco operator",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [],
+    "expertise": [
+      "Portfolio Strategy"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Cost calculator implementation for 3PL logistics provider",
+    "industries": [
+      "Logistics/3PL"
+    ],
+    "departments": [
+      "Finance",
+      "IT"
+    ],
+    "expertise": [
+      "Cost Management"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "PMO tracking tool for large Middle East based Telco",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "IT"
+    ],
+    "expertise": [
+      "PMO"
+    ],
+    "capabilities": [
+      "Implementation",
+      "PMO"
+    ]
+  },
+  {
+    "name": "Financial debt repayment and scenario modelling for financial holding ($0.5bn)",
+    "industries": [
+      "Financial Holding"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "Restructuring"
+    ],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Bank card loyalty program development for Bank",
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Sales",
+      "Marketing"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Warehouse management tool (dock ramp timeslot scheduling for trucks)",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Operations",
+      "IT"
+    ],
+    "expertise": [
+      "Supply Chain"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Promotion analysis for Retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Pricing"
+    ],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Administration, reporting and finance optimisation for large SEE consumer goods producer",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "SAP implementation lead for logistics provider",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "IT"
+    ],
+    "expertise": [
+      "ERP"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "SEE resin market research and takeover target identification for large resin producer",
+    "industries": [
+      "Chemicals/Resin"
+    ],
+    "departments": [],
+    "expertise": [
+      "Market Research",
+      "M&A"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Client and industry identification for focused sales strategy",
+    "industries": [],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Market Research",
+      "Sales Strategy"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Fact-based supplier negotiations for large Retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Sourcing"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Profitability modelling for Bank",
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "EBITDA improvement for 3PL logistics provider (road), 530k EUR on 20m EUR revenue",
+    "industries": [
+      "Logistics/3PL"
+    ],
+    "departments": [
+      "Finance",
+      "Operations"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Employee capability assessment for large Consumer Goods manufacturer",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "HR"
+    ],
+    "expertise": [
+      "Capability Building"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Project cost (billable hours) monitoring system design & development for advertising agency",
+    "industries": [
+      "Advertising/Media"
+    ],
+    "departments": [
+      "Finance",
+      "IT"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Growth strategy development and modelling",
+    "industries": [],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "Strategy"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "PMO for sourcing savings implementation for public holding (project/change management)",
+    "industries": [
+      "Public Sector/Holding"
+    ],
+    "departments": [
+      "Sourcing"
+    ],
+    "expertise": [
+      "PMO",
+      "Change Management"
+    ],
+    "capabilities": [
+      "PMO",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Due diligence and scenario modelling for consumer goods producer (Bakery)",
+    "industries": [
+      "Consumer Goods/Bakery"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [
+      "M&A"
+    ],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Shop monitoring system design & development (mystery shopping data tracking) for large tech company",
+    "industries": [
+      "Technology"
+    ],
+    "departments": [
+      "IT",
+      "Operations"
+    ],
+    "expertise": [
+      "Retail Operations"
+    ],
+    "capabilities": [
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Master data structuring and reporting development for hospital (70,000 patients)",
+    "industries": [
+      "Healthcare"
+    ],
+    "departments": [
+      "IT"
+    ],
+    "expertise": [
+      "Data Management",
+      "Reporting"
+    ],
+    "capabilities": [
+      "Implementation",
+      "Reporting/BI"
+    ]
+  },
+  {
+    "name": "National healthcare improvement program (quick-gain savings and service quality)",
+    "industries": [
+      "Healthcare",
+      "Public Sector"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Shared services assessment for large conglomerate (1.5bn EUR, 60+ companies)",
+    "industries": [
+      "Conglomerate/Diversified"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Shared Services"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Sales improvement for construction material manufacturer (+15M EUR)",
+    "industries": [
+      "Construction Materials"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Customer-oriented retail sales organization design for large bank",
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "expertise": [
+      "Organization Design"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Sales growth via digital/SaaS solutions for large EU Telco (3 countries, 600+ sales reps)",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Sales",
+      "IT"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "On-demand Target Group Index reports (40+ pages within 2 hours) for Media company",
+    "industries": [
+      "Media"
+    ],
+    "departments": [],
+    "expertise": [
+      "Reporting"
+    ],
+    "capabilities": [
+      "Reporting/BI"
+    ]
+  },
+  {
+    "name": "Complexity reduction analysis (customer loss impact on operations) for 3PL express logistics provider",
+    "industries": [
+      "Logistics/3PL"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Complexity Management"
+    ],
+    "capabilities": [
+      "Analytics",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Profitability modelling for Telco",
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "expertise": [],
+    "capabilities": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Supply chain inefficiency reduction for consumer goods producer",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Supply Chain"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "PMO for core process improvement implementation",
+    "industries": [],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Process Improvement"
+    ],
+    "capabilities": [
+      "PMO",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Core process optimisation implementation",
+    "industries": [],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Process Improvement"
+    ],
+    "capabilities": [
+      "Implementation",
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Store price change process optimisation for Retailer",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "expertise": [
+      "Pricing"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Implementation"
+    ]
+  },
+  {
+    "name": "Bank branch staff capability optimization for servicing SME corporate clients",
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "HR",
+      "Sales"
+    ],
+    "expertise": [
+      "Capability Building"
+    ],
+    "capabilities": [
+      "Consulting"
+    ]
+  },
+  {
+    "name": "Document management process optimization for large bank",
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Operations",
+      "IT"
+    ],
+    "expertise": [
+      "Document Management"
+    ],
+    "capabilities": [
+      "Consulting",
+      "Implementation"
+    ]
+  }
+]
