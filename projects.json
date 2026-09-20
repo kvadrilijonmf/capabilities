@@ -1,1068 +1,1936 @@
 [
   {
-    "name": "Vehicle maintenance system design & development (200+ vehicle fleet) for logistics provider",
+    "name": "Fleet Maintenance Intelligence System (200+ fleet)",
+    "description": "Developed an Access-based fleet maintenance intelligence system capturing vehicle maintenance activities together with detailed invoice data. The solution provided a consolidated history of repairs and maintenance costs by vehicle, enabling maintenance teams to monitor activity, identify recurring or potentially excessive repairs and challenge suppliers or maintenance decisions where appropriate. The system improved visibility of fleet maintenance and provided a structured basis for controlling maintenance costs.",
+    "searchText": "Fleet Maintenance Intelligence System (200+ fleet)LogisticsProcess OptimisationOperationsTool DevelopmentData & AnalyticsProcess OptimisationFleet Maintenance Intelligence System",
+    "group": null,
     "industries": [
       "Logistics"
-    ],
-    "departments": [
-      "IT"
-    ],
-    "expertise": [
-      "Maintenance",
-      "IT/Digital Development"
-    ],
-    "capabilities": [
-      "Implementation"
-    ]
-  },
-  {
-    "name": "Activity analysis setup and execution for large infrastructure/railway company",
-    "industries": [
-      "Infrastructure/Railway"
     ],
     "departments": [
       "Operations"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Analytics"
-    ]
-  },
-  {
-    "name": "Unbundling of large electricity provider with new organization concept design",
-    "industries": [
-      "Energy/Utilities"
+    "projectTypes": [
+      "Process Optimisation"
     ],
-    "departments": [],
     "expertise": [
-      "Organization Design",
-      "M&A/Carve-out"
-    ],
-    "capabilities": [
-      "Consulting"
+      "Tool Development",
+      "Data & Analytics",
+      "Process Optimisation"
     ]
   },
   {
-    "name": "Cash collection monitoring system design & development (4M EUR annually) for logistics provider",
+    "name": "Enterprise Workforce Utilisation Across Processes & Functions (1,000+ employees)",
+    "description": "Assessed workforce utilisation across processes and functions by designing a structured employee questionnaire to capture how time was allocated across activities. Consolidated and analysed the responses to establish the distribution of workforce capacity across processes, identify areas of high resource utilisation and provide management with a fact base for resource allocation and process improvement decisions.",
+    "searchText": "Enterprise Workforce Utilisation Across Processes & Functions (1,000+ employees)OtherWorkforce UtilisationCompany-wideData & AnalyticsStrategic AssessmentWorkforce Utilisation",
+    "group": null,
+    "industries": [
+      "Other"
+    ],
+    "departments": [
+      "Company-wide"
+    ],
+    "projectTypes": [
+      "Workforce Utilisation"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Strategic Assessment",
+      "Workforce Utilisation"
+    ]
+  },
+  {
+    "name": "Workforce Utilisation Survey & Analysis Tool",
+    "description": "Developed a reusable Excel-based workforce-utilisation tool that standardised employee questionnaires and automated the consolidation of responses across projects. The solution enabled consistent collection and analysis of workforce time allocation across processes and functions and was subsequently reused across multiple consulting engagements.",
+    "searchText": "Workforce Utilisation Survey & Analysis ToolWorkforce UtilisationCompany-wideTool DevelopmentData & AnalyticsAutomationWorkforce Utilisation Survey & Analysis Tool",
+    "group": null,
+    "industries": [],
+    "departments": [
+      "Company-wide"
+    ],
+    "projectTypes": [
+      "Workforce Utilisation"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Data & Analytics",
+      "Automation"
+    ]
+  },
+  {
+    "name": "National Electricity Utility Unbundling & Organisation Design",
+    "description": "Supported the unbundling of a national electricity utility into separate entities covering generation, network operations and sales. Conducted management interviews and best-practice research, assessed organisational requirements and developed the proposed unbundling model and target organisation structures. During the engagement, developed two reusable tools: a macro for converting text between Latin and Cyrillic alphabets and an automated organisation-chart tool that generated presentation-ready organisation structures directly from structured data, significantly accelerating the preparation of organisation charts.",
+    "searchText": "National Electricity Utility Unbundling & Organisation DesignOtherOrganisation DesignCompany-wideOrganisation DesignStrategic AssessmentData & AnalyticsTool DevelopmentAutomationAutomated Organisation Chart Tool",
+    "group": null,
+    "industries": [
+      "Other"
+    ],
+    "departments": [
+      "Company-wide"
+    ],
+    "projectTypes": [
+      "Organisation Design"
+    ],
+    "expertise": [
+      "Organisation Design",
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Tool Development",
+      "Automation"
+    ]
+  },
+  {
+    "name": "Cash Collection Process Assessment & TO-BE Design (€3.5M+ annually)",
+    "description": "Assessed the end-to-end cash-collection process through user interviews and analysis of the existing workflow and legacy system. Identified process shortcomings and system limitations, managed expectations around the required solution and designed a simplified TO-BE process. Defined the underlying data structure and functional requirements as the basis for developing a new cash-collection solution.",
+    "searchText": "Cash Collection Process Assessment & TO-BE Design (€3.5M+ annually)LogisticsProcess DesignFinanceProcess OptimisationStrategic AssessmentProcess DesignData & Analytics",
+    "group": "Cash Collection Process Assessment & TO-BE Design",
     "industries": [
       "Logistics"
     ],
     "departments": [
-      "Finance",
-      "IT"
+      "Finance"
+    ],
+    "projectTypes": [
+      "Process Design"
     ],
     "expertise": [
-      "IT/Digital Development"
-    ],
-    "capabilities": [
-      "Implementation"
+      "Process Optimisation",
+      "Strategic Assessment",
+      "Process Design",
+      "Data & Analytics"
     ]
   },
   {
-    "name": "Category management process development for large Retailer",
+    "name": "Cash Collection Monitoring System Development & Implementation (€3.5M+ annually)",
+    "description": "Designed and developed an Access-based operational system implementing the redesigned cash-collection process. Built the data model, forms, interfaces and automated workflows, developed an initial version, tested it with users and incorporated feedback into the final solution. The system monitored cash collected by driver, client, service and delivery round, reconciled collections against consignments, consolidated transactions and supported bank transfers and overpayment processing. Implemented the solution into daily operations, initially supporting six users. An external IT assessment valued a comparable bespoke solution at approximately €180,000.",
+    "searchText": "Cash Collection Monitoring System Development & Implementation (€3.5M+ annually)LogisticsProcess OptimisationFinanceTool DevelopmentAutomationData & AnalyticsProcess ImplementationCash Collection Monitoring & Control System",
+    "group": "Cash Collection Process Assessment & TO-BE Design",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Automation",
+      "Data & Analytics",
+      "Process Implementation"
+    ]
+  },
+  {
+    "name": "Cash Collection System Optimisation & Long-Term Support (€3.5M+ annually)",
+    "description": "Continued to maintain, enhance and optimise the cash-collection system following implementation. Developed additional interfaces, automated further processing steps and adjusted the solution to improve usability and accommodate evolving operational requirements. Provided ongoing maintenance and upgrades under a long-term support arrangement, with the system remaining in operational use for approximately 15 years and eventually being managed by a single dedicated user.",
+    "searchText": "Cash Collection System Optimisation & Long-Term Support (€3.5M+ annually)LogisticsProcess OptimisationFinanceTool DevelopmentAutomationProcess OptimisationProcess ImplementationClient ManagementCash Collection Monitoring & Control System — Enhancements",
+    "group": "Cash Collection Process Assessment & TO-BE Design",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Automation",
+      "Process Optimisation",
+      "Process Implementation",
+      "Client Management"
+    ]
+  },
+  {
+    "name": "Category Management Process Redesign & Rollout",
+    "description": "Redesigned and rolled out the category-management process to establish a consistent approach to defining category strategy, strategic roles, targets and annual action plans. Worked with category managers to translate the framework into practical plans covering pricing, assortment, promotions and store layouts, tested the approach with selected categories and subsequently supported its wider rollout.",
+    "searchText": "Category Management Process Redesign & RolloutRetailProcess DesignCommercialProcess DesignStrategic AssessmentProcess ImplementationTraining & Capability Development",
+    "group": "Category Management Planning & Analytics",
     "industries": [
       "Retail"
     ],
     "departments": [
-      "Sales"
+      "Commercial"
+    ],
+    "projectTypes": [
+      "Process Design"
     ],
     "expertise": [
+      "Process Design",
+      "Strategic Assessment",
+      "Process Implementation",
+      "Training & Capability Development"
+    ]
+  },
+  {
+    "name": "Category Target Setting & Planning Tool",
+    "description": "Developed a category target-setting and planning tool after identifying that category managers needed greater support in translating the category-management framework into realistic targets. The tool structured the target-setting process and enabled managers to assess planned category actions against expected performance, providing a more consistent and evidence-based basis for developing annual category plans.",
+    "searchText": "Category Target Setting & Planning ToolRetailCategory ManagementCommercialTool DevelopmentData & AnalyticsScenario ModellingCommercial EffectivenessCategory Target Setting & Planning Tool",
+    "group": "Category Management Planning & Analytics",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Commercial"
+    ],
+    "projectTypes": [
       "Category Management"
     ],
-    "capabilities": [
-      "Consulting"
+    "expertise": [
+      "Tool Development",
+      "Data & Analytics",
+      "Scenario Modelling",
+      "Commercial Effectiveness"
     ]
   },
   {
-    "name": "Category management implementation for Retailer (pricing, assortment, promotion, layouts)",
+    "name": "Pricing Strategy & Methodology",
+    "description": "Developed a category pricing strategy based on quantitative analysis of price elasticities and dependencies between products and categories. Established the analytical methodology for assessing how price changes could affect demand and category performance, and translated the findings into differentiated pricing approaches. Tested the methodology through three roll-outs with category managers and refined the approach based on practical application.",
+    "searchText": "Pricing Strategy & MethodologyRetailPricingCommercialPricingData & AnalyticsStrategic AssessmentCommercial Effectiveness",
+    "group": "Category Management Planning & Analytics",
     "industries": [
       "Retail"
     ],
     "departments": [
-      "Sales"
+      "Commercial"
     ],
-    "expertise": [
-      "Category Management",
+    "projectTypes": [
       "Pricing"
     ],
-    "capabilities": [
-      "Implementation"
+    "expertise": [
+      "Pricing",
+      "Data & Analytics",
+      "Strategic Assessment",
+      "Commercial Effectiveness"
     ]
   },
   {
-    "name": "PMO tracking tool for large Telco provider",
+    "name": "PMO Initiative Tracking & Scenario Modelling Tool",
+    "description": "Developed an automated PMO initiative-tracking and scenario-modelling tool to consolidate improvement initiatives and provide management with a structured view of implementation progress. The tool automatically summarised initiatives by area, tracked their status and quantified financial impact, including the value implemented and remaining potential. It replaced manual PMO reporting with a repeatable management-reporting solution.",
+    "searchText": "PMO Initiative Tracking & Scenario Modelling ToolTelcoTool DevelopmentStrategyTool DevelopmentAutomationData & AnalyticsScenario Modelling",
+    "group": null,
     "industries": [
       "Telco"
     ],
     "departments": [
-      "IT"
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Tool Development"
     ],
     "expertise": [
-      "PMO",
-      "IT/Digital Development"
-    ],
-    "capabilities": [
-      "Implementation",
-      "PMO"
+      "Tool Development",
+      "Automation",
+      "Data & Analytics",
+      "Scenario Modelling"
     ]
   },
   {
-    "name": "Growth tracking report for newly established markets (consumer goods)",
+    "name": "New Market Performance Reporting & Dashboard Design",
+    "description": "Designed and implemented an Excel-based performance reporting and dashboard tool for a new market. Automated the consolidation and presentation of performance information, providing management with a standardised and repeatable view of key results and enabling more efficient ongoing monitoring.",
+    "searchText": "New Market Performance Reporting & Dashboard DesignConsumer GoodsMarket EntrySalesTool DevelopmentAutomationData & AnalyticsNew Market Performance Reporting & Dashboard Tool",
+    "group": null,
     "industries": [
       "Consumer Goods"
     ],
     "departments": [
       "Sales"
     ],
-    "expertise": [
-      "Reporting"
+    "projectTypes": [
+      "Market Entry"
     ],
-    "capabilities": [
-      "Reporting/BI",
-      "Implementation"
+    "expertise": [
+      "Tool Development",
+      "Automation",
+      "Data & Analytics"
     ]
   },
   {
-    "name": "Cost transparency modelling for furniture division of large SEE consumer goods producer",
+    "name": "Cost Allocation & Profitability Modelling",
+    "description": "Developed a product cost and profitability modelling tool for a group of five companies contributing different components to the final product. Mapped how products and components flowed through the production process and allocated the costs of the relevant cost centres to the products they produced. The model established the underlying economics of the full product range, identifying profitable and unprofitable products as well as productive and underperforming cost centres. It also provided a fact base for assessing internal pricing between the companies and understanding the impact of transfer-price changes on the profitability of each entity.",
+    "searchText": "Cost Allocation & Profitability ModellingConsumer GoodsPerformance ImprovementManufacturingCost Allocation & ProfitabilityFinancial ModellingData & AnalyticsProcess ModellingTool DevelopmentProduct Cost & Profitability Model",
+    "group": null,
     "industries": [
       "Consumer Goods"
     ],
     "departments": [
-      "Finance"
+      "Manufacturing"
+    ],
+    "projectTypes": [
+      "Performance Improvement"
     ],
     "expertise": [
-      "Cost Management"
-    ],
-    "capabilities": [
-      "Analytics"
+      "Cost Allocation & Profitability",
+      "Financial Modelling",
+      "Data & Analytics",
+      "Process Modelling",
+      "Tool Development"
     ]
   },
   {
-    "name": "Financial reporting optimisation for logistics provider",
+    "name": "P&L Mapping & Reporting Automation (achieved 80% time reduction)",
+    "description": "Developed an Excel macro to automate the translation of local P&L and balance-sheet structures into a global reporting structure. The solution handled direct one-to-one mappings as well as cases where local cost types had to be split, regrouped or otherwise transformed to match the global structure. It reduced a manual process requiring approximately 1–2 weeks of work to around three minutes. Although the intended users were reluctant to adopt the solution, concerned about the impact of automation on their roles, the work was recognised internally and contributed to my promotion.",
+    "searchText": "P&L Mapping & Reporting Automation (achieved 80% time reduction)LogisticsPerformance ImprovementFinanceData & AnalyticsAutomationP&L & Balance Sheet Mapping Automation Tool",
+    "group": null,
     "industries": [
       "Logistics"
     ],
     "departments": [
       "Finance"
     ],
-    "expertise": [
-      "Reporting"
+    "projectTypes": [
+      "Performance Improvement"
     ],
-    "capabilities": [
-      "Consulting",
-      "Reporting/BI"
+    "expertise": [
+      "Data & Analytics",
+      "Automation"
     ]
   },
   {
-    "name": "PMO for sales growth of large EU Telco via digital/SaaS solutions (3 countries, 600+ sales reps)",
+    "name": "Telco Cloud Services Sales Enablement & Performance Management (three EU Countries)",
+    "description": "Led the implementation of country-specific initiatives to expand third-party cloud-services sales across three countries. Organised targeted training to address knowledge and sales-skill gaps identified during the initial assessment, established mechanisms to track new cloud-service opportunities and monitored progress across the markets. Adapted the implementation approach to the specific requirements of each country and sales organisation.",
+    "searchText": "Telco Cloud Services Sales Enablement & Performance Management (three EU Countries)TelcoSales EnhancementSalesProject ManagementSales EnhancementTraining & Capability Development",
+    "group": "Cloud Services Sales Enablement & Performance Management",
     "industries": [
       "Telco"
     ],
     "departments": [
-      "Sales",
-      "IT"
-    ],
-    "expertise": [
-      "PMO"
-    ],
-    "capabilities": [
-      "PMO",
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Optimized ordering system for retailer",
-    "industries": [
-      "Retail"
-    ],
-    "departments": [
-      "Operations"
-    ],
-    "expertise": [
-      "Supply Chain"
-    ],
-    "capabilities": [
-      "Consulting",
-      "Implementation"
-    ]
-  },
-  {
-    "name": "Optimized logistics for construction material manufacturer",
-    "industries": [
-      "Construction Materials"
-    ],
-    "departments": [
-      "Operations"
-    ],
-    "expertise": [
-      "Supply Chain"
-    ],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Fact-based supplier negotiations for DIY Retailer",
-    "industries": [
-      "Retail/DIY"
-    ],
-    "departments": [
-      "Sourcing"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Pricing strategy and pricing tool for Retailer",
-    "industries": [
-      "Retail"
-    ],
-    "departments": [
       "Sales"
     ],
-    "expertise": [
-      "Pricing"
+    "projectTypes": [
+      "Sales Enhancement"
     ],
-    "capabilities": [
-      "Consulting",
-      "Implementation"
+    "expertise": [
+      "Project Management",
+      "Sales Enhancement",
+      "Training & Capability Development"
     ]
   },
   {
-    "name": "Optimized maintenance process and support function for large chemical manufacturer",
+    "name": "Retail Store Ordering Optimisation & Automation Assessment (€1.1M savings identified)",
+    "description": "Assessed the potential to automate store ordering by analysing a year of historical ordering, inventory and sales data. Compared ordering frequency and inventory levels with actual sales patterns to identify opportunities to improve replenishment. Modelled an automated ordering approach in Excel and simulated its impact on inventory requirements, quantifying the potential inventory reduction and associated savings.",
+    "searchText": "Retail Store Ordering Optimisation & Automation Assessment (€1.1M savings identified)RetailSupply ChainSupply ChainData & AnalyticsScenario ModellingSupply Chain OptimisationProcess OptimisationStrategic Assessment",
+    "group": null,
     "industries": [
-      "Chemicals"
+      "Retail"
     ],
     "departments": [
-      "Operations"
+      "Supply Chain"
+    ],
+    "projectTypes": [
+      "Supply Chain"
     ],
     "expertise": [
-      "Maintenance"
-    ],
-    "capabilities": [
-      "Consulting"
+      "Data & Analytics",
+      "Scenario Modelling",
+      "Supply Chain Optimisation",
+      "Process Optimisation",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "Reporting development (customer, new business, churn) for logistics provider",
+    "name": "Logistics Cost Analysis & Optimisation (6 Countries)",
+    "description": "Analysed end-to-end material flows and transportation costs to identify opportunities to improve logistics efficiency. Quantified the potential impact of the identified improvements and developed an implementation plan to translate the opportunities into practical actions.",
+    "searchText": "Logistics Cost Analysis & Optimisation (6 Countries)Consumer GoodsSupply ChainSupply ChainSupply Chain OptimisationData & AnalyticsProcess OptimisationStrategic Assessmentcenario Modelling",
+    "group": null,
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Supply Chain"
+    ],
+    "projectTypes": [
+      "Supply Chain"
+    ],
+    "expertise": [
+      "Supply Chain Optimisation",
+      "Data & Analytics",
+      "Process Optimisation",
+      "Strategic Assessment",
+      "cenario Modelling"
+    ]
+  },
+  {
+    "name": "Client 3: Margin calculation & Negotiation Targets",
+    "description": "Developed a cost allocation and margin model to establish product-level economics and quantify supplier negotiation potential. Translated the analysis into a tool that calculated supplier- and category-level negotiation targets, provided category managers with practical targets and supporting negotiation materials, and trained users to apply the analysis in supplier negotiations.",
+    "searchText": "Client 3: Margin calculation & Negotiation TargetsRetailRestructuringCommercialCost Allocation & ProfitabilityData & AnalyticsTool DevelopmentSupplier NegotiationTraining & Capability DevelopmentSupplier Negotiation Potential & Target-Setting Tool",
+    "group": "Supplier Negotiation Potential & Strategy Development",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Commercial"
+    ],
+    "projectTypes": [
+      "Restructuring"
+    ],
+    "expertise": [
+      "Cost Allocation & Profitability",
+      "Data & Analytics",
+      "Tool Development",
+      "Supplier Negotiation",
+      "Training & Capability Development"
+    ]
+  },
+  {
+    "name": "Pricing Strategy & Impact Simulation Tool",
+    "description": "Translated the pricing methodology developed through the category pricing strategy into a practical simulation tool for category managers. The tool incorporated price elasticities and category dependencies to calculate the expected impact of proposed price changes, enabling managers to test pricing scenarios and incorporate the results into their category strategies before implementation.",
+    "searchText": "Pricing Strategy & Impact Simulation ToolRetailCommercial ImprovementCommercialTool DevelopmentScenario ModellingPricingAutomationPricing Impact Simulation Tool",
+    "group": "Category Management Planning & Analytics",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Commercial"
+    ],
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Scenario Modelling",
+      "Pricing",
+      "Automation"
+    ]
+  },
+  {
+    "name": "Maintenance & Support Function Organisation Redesign",
+    "description": "Assessed the maintenance and support function of a chemical producer to determine an appropriate organisational structure and staffing level. Analysed the existing organisation and compared staffing requirements with relevant external benchmarks to identify opportunities for a leaner operating model. Developed a target organisation and corresponding staffing requirements to improve the efficiency of the maintenance function.",
+    "searchText": "Maintenance & Support Function Organisation RedesignConsumer GoodsOrganisation DesignManufacturingOrganisation DesignStrategic AssessmentData & AnalyticsWorkforce Utilisation",
+    "group": null,
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Manufacturing"
+    ],
+    "projectTypes": [
+      "Organisation Design"
+    ],
+    "expertise": [
+      "Organisation Design",
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Workforce Utilisation"
+    ]
+  },
+  {
+    "name": "Revenue & Margin BI Tool (Monthly New Business & Churn Reporting)",
+    "description": "Developed an Excel-based revenue and margin BI tool for a logistics provider to automate the classification and reporting of business performance. The tool distinguished existing business, new business and churn and enabled management to filter results by business unit, year, month and transportation type. Users could drill down from overall revenue and margin performance to individual customers and routes, providing a structured basis for monitoring commercial performance.",
+    "searchText": "Revenue & Margin BI Tool (Monthly New Business & Churn Reporting)LogisticsCommercial ImprovementSalesTool DevelopmentAutomationData & AnalyticsRevenue & Margin BI Tool",
+    "group": null,
     "industries": [
       "Logistics"
     ],
     "departments": [
       "Sales"
     ],
-    "expertise": [
-      "Reporting"
+    "projectTypes": [
+      "Commercial Improvement"
     ],
-    "capabilities": [
-      "Reporting/BI",
-      "Implementation"
+    "expertise": [
+      "Tool Development",
+      "Automation",
+      "Data & Analytics"
     ]
   },
   {
-    "name": "Software specifications for invoicing of legal services",
+    "name": "Software specification for legal-service invoicing",
+    "description": "Developed the Excel-based pricing specification for a company building an automated invoicing system for law firms. Structured more than 1,200 legal services into a complete service catalogue and mapped complex relationships between services, including multi-level references with defined percentage uplifts and reductions. Calculated the resulting pricing logic across the service structure, with some services referencing more than seven others. The resulting Excel model was used by the software company as the specification for implementing the system’s main service menu and was subsequently tested by lawyers, with almost no errors identified.",
+    "searchText": "Software specification for legal-service invoicingOtherAssessmentLegalPricingData & AnalyticsFinancial ModellingProcess DesignTool DevelopmentLegal Services Pricing & Invoicing Specification",
+    "group": null,
     "industries": [
-      "Legal Services"
+      "Other"
     ],
     "departments": [
-      "Finance",
-      "IT"
+      "Legal"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Pricing",
+      "Data & Analytics",
+      "Financial Modelling",
+      "Process Design",
+      "Tool Development"
     ]
   },
   {
-    "name": "Sales performance reporting system design & implementation for large bank",
+    "name": "Sales-performance reporting system",
+    "description": "Further developed the sales performance tool to improve functionality and reporting. Enhanced the data-consolidation macros and extended the solution to support the client’s incentive scheme, linking sales performance data with incentive calculations and reporting.",
+    "searchText": "Sales-performance reporting systemBankingSales EnhancementSalesData & AnalyticsTool DevelopmentSales Performance & Incentive Management Tool",
+    "group": "Sales Performance & Incentive Management",
     "industries": [
       "Banking"
     ],
     "departments": [
       "Sales"
     ],
-    "expertise": [
-      "Reporting"
+    "projectTypes": [
+      "Sales Enhancement"
     ],
-    "capabilities": [
-      "Implementation",
-      "Reporting/BI"
+    "expertise": [
+      "Data & Analytics",
+      "Tool Development"
     ]
   },
   {
-    "name": "Tableau dashboards for clinical patient care activity tracking (medication, diagnosis, devices, vitals)",
+    "name": "Clinical Activity Data Model & Analytics",
+    "description": "Designed the core data structure for a hospital clinical-activity reporting solution, establishing how complex data covering areas such as medication, diagnosis, medical devices and vital signs should be structured and related to support multiple analytical requirements. Led the analytical development of the data foundation and worked through the complexity that had initially led the solution to be considered infeasible. Delivered the core analytical structure within a three-month development programme.",
+    "searchText": "Clinical Activity Data Model & AnalyticsHealthcarePerformance ImprovementOperationsData & AnalyticsTool DevelopmentLeadershipClinical Activity Data Model",
+    "group": "Clinical Activity Reporting & Analytics",
     "industries": [
       "Healthcare"
     ],
     "departments": [
       "Operations"
     ],
-    "expertise": [
-      "Clinical Operations",
-      "Reporting"
+    "projectTypes": [
+      "Performance Improvement"
     ],
-    "capabilities": [
-      "Implementation",
-      "Analytics"
+    "expertise": [
+      "Data & Analytics",
+      "Tool Development",
+      "Leadership"
     ]
   },
   {
-    "name": "Optimized operations, processes and organisation for large Construction company",
+    "name": "Clinical Activity Dashboards for Hospital Care",
+    "description": "Led the development of Tableau dashboards for monitoring clinical activity across hospital care. Translated reporting requirements into interactive dashboards and worked directly with the client through multiple iterations to refine the reporting solution. Led a two-person analytical team and helped turn an initially sceptical view of the feasibility of the overall solution into a working dashboard environment delivered within three months.",
+    "searchText": "Clinical Activity Dashboards for Hospital CareHealthcarePerformance ImprovementOperationsTool DevelopmentData & AnalyticsLeadershipClient ManagementClinical Activity Dashboards",
+    "group": "Clinical Activity Reporting & Analytics",
     "industries": [
-      "Construction"
+      "Healthcare"
     ],
     "departments": [
       "Operations"
     ],
-    "expertise": [
-      "Organization Design"
+    "projectTypes": [
+      "Performance Improvement"
     ],
-    "capabilities": [
-      "Consulting"
+    "expertise": [
+      "Tool Development",
+      "Data & Analytics",
+      "Leadership",
+      "Client Management"
     ]
   },
   {
-    "name": "Furniture division restructuring: due diligence and disinvestment scenario modelling for large home appliance manufacturer",
+    "name": "B2B Sales Targeting & Segmentation Tool",
+    "description": "Developed an Excel-based B2B sales-targeting and segmentation tool for a company selling Tableau solutions. Structured and classified company data using characteristics such as revenue, company age and number of employees, and developed an interactive interface that enabled users to filter and segment the potential market. The tool generated targeted lists of companies matching the selected criteria, providing the sales team with a structured approach to identifying and prioritising potential Tableau customers.",
+    "searchText": "B2B Sales Targeting & Segmentation ToolHealthcareCommercial ImprovementSalesTool DevelopmentData & AnalyticsSales EnhancementAutomationTableau Sales Targeting & Segmentation Tool",
+    "group": null,
     "industries": [
-      "Consumer Goods/Appliances"
+      "Healthcare"
     ],
     "departments": [
-      "Finance"
+      "Sales"
+    ],
+    "projectTypes": [
+      "Commercial Improvement"
     ],
     "expertise": [
-      "M&A",
-      "Restructuring"
-    ],
-    "capabilities": [
-      "Consulting",
-      "Analytics"
+      "Tool Development",
+      "Data & Analytics",
+      "Sales Enhancement",
+      "Automation"
     ]
   },
   {
-    "name": "Market research (Slovenia & Croatia) for large non-food retailer's international expansion",
+    "name": "Operations Process & Organisation Redesign",
+    "description": "Assessed the organisation’s core processes and operating model through management interviews, external best-practice assessment and product-level profitability analysis. Developed TO-BE core processes, a redesigned organisation structure and 30+ improvement initiatives to address identified performance and efficiency opportunities.",
+    "searchText": "Operations Process & Organisation RedesignOtherProcess OptimisationOperationsProcess DesignOrganisation DesignStrategic Assessment",
+    "group": "Operations Process & Organisation Redesign & Implementation",
     "industries": [
-      "Retail"
+      "Other"
     ],
-    "departments": [],
+    "departments": [
+      "Operations"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
     "expertise": [
-      "Market Research",
-      "Strategy"
-    ],
-    "capabilities": [
-      "Analytics"
+      "Process Design",
+      "Organisation Design",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "Sourcing negotiations using linear regression method for consumer goods provider",
+    "name": "Furniture Division Restructuring & Scenario Analysis",
+    "description": "Developed a financial restructuring and scenario-analysis model for a furniture division to assess how the business could be returned to profitability. Built detailed cash-flow projections by allocating revenues and costs to the division and modelled alternative restructuring scenarios. Evaluated the scenarios using NPV analysis and different discount rates to reflect the relative risk of each option, providing management with a quantitative basis for selecting the preferred restructuring approach.",
+    "searchText": "Furniture Division Restructuring & Scenario AnalysisConsumer GoodsRestructuringStrategyCost Allocation & ProfitabilityScenario ModellingData & AnalyticsStrategic Assessment",
+    "group": null,
     "industries": [
       "Consumer Goods"
     ],
     "departments": [
-      "Sourcing"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Sourcing and IT optimization for public holding (700k EUR EBITDA improvement on 80m EUR revenue)",
-    "industries": [
-      "Public Sector/Holding"
-    ],
-    "departments": [
-      "Sourcing",
-      "IT"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Restructuring plan development for DIY Retailer",
-    "industries": [
-      "Retail/DIY"
-    ],
-    "departments": [],
-    "expertise": [
-      "Restructuring"
-    ],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "IT, HR & Sourcing strategy development for large conglomerate (1.5bn EUR, 60+ companies)",
-    "industries": [
-      "Conglomerate/Diversified"
-    ],
-    "departments": [
-      "IT",
-      "HR",
-      "Sourcing"
-    ],
-    "expertise": [
       "Strategy"
     ],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Pricing strategy for 3PL logistics provider",
-    "industries": [
-      "Logistics/3PL"
-    ],
-    "departments": [
-      "Sales"
+    "projectTypes": [
+      "Restructuring"
     ],
     "expertise": [
-      "Pricing"
-    ],
-    "capabilities": [
-      "Consulting"
+      "Cost Allocation & Profitability",
+      "Scenario Modelling",
+      "Data & Analytics",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "Coupon prize game system development (50,000 entries)",
-    "industries": [],
-    "departments": [
-      "IT",
-      "Marketing"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Implementation"
-    ]
-  },
-  {
-    "name": "Russian spirits market research to identify logistics strategy for spirit manufacturer",
-    "industries": [
-      "Consumer Goods/Spirits"
-    ],
-    "departments": [],
-    "expertise": [
-      "Market Research",
-      "Supply Chain"
-    ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Financial and operating analysis for tourism fund (8+ companies)",
-    "industries": [
-      "Tourism"
-    ],
-    "departments": [
-      "Finance",
-      "Operations"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Analytics"
-    ]
-  },
-  {
-    "name": "Route/round project optimisation (119 to 74) for logistics provider",
-    "industries": [
-      "Logistics"
-    ],
-    "departments": [
-      "Operations"
-    ],
-    "expertise": [
-      "Network Optimization"
-    ],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Strategic category management for Retailer",
+    "name": "Market Assessment & Entry Roadmap (Slovenia & Croatia)",
+    "description": "Assessed market-entry opportunities across two countries, combining country-level economic and financial analysis with a detailed assessment of the retail landscape. Analysed market size, competitive structures and the timing and approach of major competitors’ market entry. Based on the market assessment, developed country-specific entry roadmaps covering the recommended entry approach, supply model and an indicative business plan to assess the commercial viability of the opportunity.",
+    "searchText": "Market Assessment & Entry Roadmap (Slovenia & Croatia)RetailAssessmentStrategyStrategic AssessmentData & AnalyticsScenario ModellingFinancial Impact Modelling",
+    "group": "Market Entry Assessment & Planning",
     "industries": [
       "Retail"
     ],
     "departments": [
-      "Sales"
-    ],
-    "expertise": [
-      "Category Management",
       "Strategy"
     ],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "On-demand analytical solutions and reporting for advertising agency",
-    "industries": [
-      "Advertising/Media"
+    "projectTypes": [
+      "Assessment"
     ],
-    "departments": [],
     "expertise": [
-      "Reporting"
-    ],
-    "capabilities": [
-      "Analytics",
-      "Reporting/BI"
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Scenario Modelling",
+      "Financial Impact Modelling"
     ]
   },
   {
-    "name": "Motorcycle carbon parts production system design & development",
+    "name": "Store Network Optimisation & Location Modelling",
+    "description": "Developed a store-network model to determine the optimal number and geographic positioning of stores in the target market. Combined market and location data with scenario analysis to assess alternative network configurations and identify a store footprint that balanced market coverage and commercial potential.",
+    "searchText": "Store Network Optimisation & Location ModellingRetailProcess OptimisationOperationsScenario ModellingData & AnalyticsStrategic AssessmentTool DevelopmentStore Network Optimisation & Location Model",
+    "group": "Market Entry Assessment & Planning",
     "industries": [
-      "Manufacturing/Automotive"
-    ],
-    "departments": [
-      "IT",
-      "Operations"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Implementation"
-    ]
-  },
-  {
-    "name": "Inventory reduction assessment: warehouse (-64%) and store network (-52%) for large Telco",
-    "industries": [
-      "Telco"
+      "Retail"
     ],
     "departments": [
       "Operations"
     ],
-    "expertise": [
-      "Supply Chain",
-      "Inventory Management"
+    "projectTypes": [
+      "Process Optimisation"
     ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
+    "expertise": [
+      "Scenario Modelling",
+      "Data & Analytics",
+      "Strategic Assessment",
+      "Tool Development"
     ]
   },
   {
-    "name": "Portfolio simplification for large Telco operator",
+    "name": "Warehouse Network & Logistics Cost Optimisation",
+    "description": "Developed a logistics cost model to assess the optimal number and geographic location of warehouses required to support the target market. Modelled alternative warehouse configurations and their associated logistics costs to identify an efficient distribution network for the proposed market entry.",
+    "searchText": "Warehouse Network & Logistics Cost OptimisationRetailProcess OptimisationSupply ChainSupply Chain OptimisationData & AnalyticsScenario ModellingTool DevelopmentWarehouse Network & Logistics Cost Model",
+    "group": "Market Entry Assessment & Planning",
     "industries": [
-      "Telco"
-    ],
-    "departments": [],
-    "expertise": [
-      "Portfolio Strategy"
-    ],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Cost calculator implementation for 3PL logistics provider",
-    "industries": [
-      "Logistics/3PL"
+      "Retail"
     ],
     "departments": [
-      "Finance",
-      "IT"
+      "Supply Chain"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
     ],
     "expertise": [
-      "Cost Management"
+      "Supply Chain Optimisation",
+      "Data & Analytics",
+      "Scenario Modelling",
+      "Tool Development"
+    ]
+  },
+  {
+    "name": "Supplier Cost Driver Analysis & Negotiation Opportunities (5–10% savings potential)",
+    "description": "Developed a supplier cost-driver analysis to assess whether purchased products were priced in line with their underlying characteristics and market evidence. Identified the main independent cost drivers, including raw-material requirements, product weight and product complexity, and used them to estimate the expected price of individual products. Compared the predicted prices with the prices paid to suppliers to identify products where significant overpricing existed. Translated the findings into negotiation opportunities, including cases where alternative suppliers already producing similar products at lower prices could be approached if the incumbent supplier was unwilling to reduce its price.",
+    "searchText": "Supplier Cost Driver Analysis & Negotiation Opportunities (5–10% savings potential)Consumer GoodsCost ReductionProcurementTool DevelopmentData & AnalyticsSupplier NegotiationsFinancial Impact ModellingSupplier Cost & Negotiation Analysis Tool",
+    "group": null,
+    "industries": [
+      "Consumer Goods"
     ],
-    "capabilities": [
+    "departments": [
+      "Procurement"
+    ],
+    "projectTypes": [
+      "Cost Reduction"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Data & Analytics",
+      "Supplier Negotiations",
+      "Financial Impact Modelling"
+    ]
+  },
+  {
+    "name": "Procurement Spend Analysis & Savings Opportunity Identification (€500k Potential Identified)",
+    "description": "Analysed procurement spend across companies, suppliers and purchasing categories to identify opportunities for joint sourcing. Assessed spending patterns and supplier structures to identify categories where coordinated purchasing could improve sourcing conditions, identifying approximately €500k of potential savings.",
+    "searchText": "Procurement Spend Analysis & Savings Opportunity Identification (€500k Potential Identified)OtherCost ReductionProcurementData & AnalyticsStrategic AssessmentSupplier Negotiations",
+    "group": "Cost reduction with Joint Sourcing Strategy",
+    "industries": [
+      "Other"
+    ],
+    "departments": [
+      "Procurement"
+    ],
+    "projectTypes": [
+      "Cost Reduction"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Strategic Assessment",
+      "Supplier Negotiations"
+    ]
+  },
+  {
+    "name": "Joint Sourcing Strategy Development (20 sourcing categories)",
+    "description": "Developed a joint-sourcing strategy covering 20 procurement categories. Assessed the suitability of categories for coordinated sourcing and defined the sourcing approach and priorities for leveraging combined purchasing volumes and improving supplier conditions.",
+    "searchText": "Joint Sourcing Strategy Development (20 sourcing categories)StrategyProcurementStrategic AssessmentSupplier NegotiationsData & AnalyticsProcurement",
+    "group": "Cost reduction with Joint Sourcing Strategy",
+    "industries": [],
+    "departments": [
+      "Procurement"
+    ],
+    "projectTypes": [
+      "Strategy"
+    ],
+    "expertise": [
+      "Strategic Assessment",
+      "Supplier Negotiations",
+      "Data & Analytics",
+      "Procurement"
+    ]
+  },
+  {
+    "name": "Joint Sourcing Strategy & Implementation (€530k savings achieved)",
+    "description": "Led the implementation of the joint-sourcing strategy across priority procurement categories, translating the sourcing opportunities into concrete supplier actions and negotiations. Coordinated the implementation of the sourcing initiatives and supported the transition from identified opportunities to realised savings, achieving approximately €530k in procurement savings.",
+    "searchText": "Joint Sourcing Strategy & Implementation (€530k savings achieved)OtherImplementationProcurementPMOSupplier NegotiationsProcurementProcess Implementation",
+    "group": "Cost reduction with Joint Sourcing Strategy",
+    "industries": [
+      "Other"
+    ],
+    "departments": [
+      "Procurement"
+    ],
+    "projectTypes": [
       "Implementation"
+    ],
+    "expertise": [
+      "PMO",
+      "Supplier Negotiations",
+      "Procurement",
+      "Process Implementation"
     ]
   },
   {
-    "name": "PMO tracking tool for large Middle East based Telco",
+    "name": "Comprehensive Restructuring & Profitability Improvement Programme",
+    "description": "Supported a comprehensive restructuring programme for a company facing significant debt repayment requirements, with the objective of restoring profitability and strengthening its ability to meet its financial obligations. Assessed a broad range of profitability improvement opportunities across the business, including operational improvements, product portfolio optimisation, inventory reduction, store-network optimisation and more flexible workforce deployment in stores. Developed and quantified initiatives to improve EBITDA and incorporated them into a broader restructuring plan for management and the company’s financial stakeholders.",
+    "searchText": "Comprehensive Restructuring & Profitability Improvement ProgrammeRetailRestructuringStrategyStrategic AssessmentProcess OptimisationSupply Chain OptimisationWorkforce UtilisationCommercial Effectiveness",
+    "group": null,
     "industries": [
-      "Telco"
+      "Retail"
+    ],
+    "departments": [
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Restructuring"
+    ],
+    "expertise": [
+      "Strategic Assessment",
+      "Process Optimisation",
+      "Supply Chain Optimisation",
+      "Workforce Utilisation",
+      "Commercial Effectiveness"
+    ]
+  },
+  {
+    "name": "IT, HR and sourcing strategy for a €1.5B conglomerate",
+    "description": "Developed an HR transformation strategy for a group of 60 companies where HR operated through three largely independent organisations, each with its own management and practices. Designed an approach that retained the existing HR structures while encouraging greater collaboration and standardisation across the group. The transformation included migration towards a common SuccessFactors platform, standardisation of roles and positions, harmonisation of salary and incentive structures, greater use of common recruitment providers, sharing of best practices and development of a stronger shared HR identity. The strategy also defined a shift from primarily operational HR administration towards a more strategic role, with HR supporting business leaders in identifying required capabilities, workforce profiles and future talent needs.",
+    "searchText": "IT, HR and sourcing strategy for a €1.5B conglomerateOtherStrategyHRStrategyOrganisation DesignProcess DesignStrategic AssessmentTransformation",
+    "group": "Strategy, Operatin Model & Transformation",
+    "industries": [
+      "Other"
+    ],
+    "departments": [
+      "HR"
+    ],
+    "projectTypes": [
+      "Strategy"
+    ],
+    "expertise": [
+      "Strategy",
+      "Organisation Design",
+      "Process Design",
+      "Strategic Assessment",
+      "Transformation"
+    ]
+  },
+  {
+    "name": "IT: Strengthening business support through process ownership, automation and AI agents",
+    "description": "Developed an IT transformation strategy for a group where IT had traditionally operated primarily as a support function rather than actively shaping business requirements and technology opportunities. Assessed the existing model, including the role of process owners who acted as an interface between the business and IT, and developed a more strategic role for IT in identifying and addressing business opportunities. The strategy placed greater emphasis on understanding business processes and needs, identifying opportunities for automation and developing and promoting the use of AI agents to improve business performance.",
+    "searchText": "IT: Strengthening business support through process ownership, automation and AI agentsOtherStrategyITStrategyStrategic AssessmentProcess DesignTransformation",
+    "group": "Strategy, Operatin Model & Transformation",
+    "industries": [
+      "Other"
     ],
     "departments": [
       "IT"
     ],
-    "expertise": [
-      "PMO"
+    "projectTypes": [
+      "Strategy"
     ],
-    "capabilities": [
-      "Implementation",
-      "PMO"
+    "expertise": [
+      "Strategy",
+      "Strategic Assessment",
+      "Process Design",
+      "Transformation"
     ]
   },
   {
-    "name": "Financial debt repayment and scenario modelling for financial holding ($0.5bn)",
+    "name": "Identifying cross-company supplier opportunities to improve sourcing conditions (€1–2M validated savings potential",
+    "description": "Identified opportunities to leverage the group’s combined purchasing volumes by analysing supplier relationships across its companies. Mapped suppliers serving multiple companies and identified categories where coordinated sourcing could improve purchasing conditions. Developed cross-company sourcing opportunities to support supplier negotiations and quantify the resulting savings potential, including approximately €1–2m of validated potential savings.",
+    "searchText": "Identifying cross-company supplier opportunities to improve sourcing conditions (€1–2M validated savings potentialOtherStrategySourcingStrategyStrategic AssessmentSupplier NegotiationsTransformation",
+    "group": "Strategy, Operatin Model & Transformation",
     "industries": [
-      "Financial Holding"
+      "Other"
+    ],
+    "departments": [
+      "Sourcing"
+    ],
+    "projectTypes": [
+      "Strategy"
+    ],
+    "expertise": [
+      "Strategy",
+      "Strategic Assessment",
+      "Supplier Negotiations",
+      "Transformation"
+    ]
+  },
+  {
+    "name": "High-Volume Promotion Processing & Data Management (50,000 Entries)",
+    "description": "Redesigned and supported a high-volume promotion-processing operation involving approximately 50,000 entries. Developed a structured database-based process for managing the incoming information and coordinating data entry, with productivity incentives linked to the number of entries processed. Developed an algorithm to identify repeated submissions and established systematic quality-control checks to ensure that processed entries were complete and accurate. The approach combined process design, database functionality, productivity management and quality assurance to enable a high-volume operation to handle large volumes of data in a controlled and scalable manner.",
+    "searchText": "High-Volume Promotion Processing & Data Management (50,000 Entries)MediaCommercial ImprovementMarketingProcess OptimisationTool DevelopmentProcess DesignProject ManagementLeadershipPromotion Processing & Data Management System",
+    "group": null,
+    "industries": [
+      "Media"
+    ],
+    "departments": [
+      "Marketing"
+    ],
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Process Optimisation",
+      "Tool Development",
+      "Process Design",
+      "Project Management",
+      "Leadership"
+    ]
+  },
+  {
+    "name": "Russian Spirits Market Entry & Logistics Cost Assessment",
+    "description": "Supported an assessment of the Russian spirits market and potential market-entry opportunity. Analysed market-research reports, extracted relevant market and competitive information and assessed logistics-cost implications, translating the findings into actionable management recommendations.",
+    "searchText": "Russian Spirits Market Entry & Logistics Cost AssessmentConsumer GoodsMarket EntrySupply ChainData & AnalyticsStrategic Assessment",
+    "group": null,
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Supply Chain"
+    ],
+    "projectTypes": [
+      "Market Entry"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Strategic Assessment"
+    ]
+  },
+  {
+    "name": "Tourism Holding: Financial, Development & Governance Strategy (8 Companies)",
+    "description": "Developed a strategic assessment for an eight-company tourism holding, combining financial and tourism analysis with assessment of property-development opportunities and governance alternatives. Evaluated five-year development and investment options and developed recommendations for the future direction and governance of the holding.",
+    "searchText": "Tourism Holding: Financial, Development & Governance Strategy (8 Companies)OtherStrategyFinanceStrategyStrategic AssessmentFinancial ModellingOrganisation Design",
+    "group": null,
+    "industries": [
+      "Other"
     ],
     "departments": [
       "Finance"
     ],
+    "projectTypes": [
+      "Strategy"
+    ],
     "expertise": [
-      "Restructuring"
-    ],
-    "capabilities": [
-      "Analytics"
+      "Strategy",
+      "Strategic Assessment",
+      "Financial Modelling",
+      "Organisation Design"
     ]
   },
   {
-    "name": "Bank card loyalty program development for Bank",
-    "industries": [
-      "Banking"
-    ],
-    "departments": [
-      "Sales",
-      "Marketing"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting",
-      "Implementation"
-    ]
-  },
-  {
-    "name": "Warehouse management tool (dock ramp timeslot scheduling for trucks)",
+    "name": "Delivery Territory & Route Optimisation (119 to 74 Routes)",
+    "description": "Optimised delivery territories by reallocating postcode areas across drivers to improve workload balance and delivery productivity while reducing travel requirements. The analysis reduced the required delivery rounds from 119 to 74 and identified corresponding efficiency improvements.",
+    "searchText": "Delivery Territory & Route Optimisation (119 to 74 Routes)LogisticsPerformance ImprovementSupply ChainSupply Chain OptimisationWorkforce UtilisationProcess OptimisationStrategic Assessment",
+    "group": null,
     "industries": [
       "Logistics"
     ],
     "departments": [
-      "Operations",
-      "IT"
-    ],
-    "expertise": [
       "Supply Chain"
     ],
-    "capabilities": [
-      "Implementation"
+    "projectTypes": [
+      "Performance Improvement"
+    ],
+    "expertise": [
+      "Supply Chain Optimisation",
+      "Workforce Utilisation",
+      "Process Optimisation",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "Promotion analysis for Retailer",
+    "name": "Strategic category management",
+    "description": "Developed and supported the rollout of a strategic category-management approach, defining the roles and responsibilities of category managers and establishing a framework for managing categories strategically. Supported the approach with analysis of category economics, including margin calculations, and worked with category managers to translate the framework into category-specific strategies and actions. Supported the rollout of the approach across the organisation, with category managers taking responsibility for developing and implementing their respective category strategies.",
+    "searchText": "Strategic category managementRetailStrategyCommercialStrategyStrategic AssessmentProcess DesignCommercial Effectiveness",
+    "group": null,
     "industries": [
       "Retail"
     ],
     "departments": [
-      "Sales"
+      "Commercial"
+    ],
+    "projectTypes": [
+      "Strategy"
     ],
     "expertise": [
-      "Pricing"
-    ],
-    "capabilities": [
-      "Analytics"
+      "Strategy",
+      "Strategic Assessment",
+      "Process Design",
+      "Commercial Effectiveness"
     ]
   },
   {
-    "name": "Administration, reporting and finance optimisation for large SEE consumer goods producer",
+    "name": "On-demand analytical solutions and reporting",
+    "description": "Developed a standardised analytical reporting solution using a large customer-behaviour database covering brand recognition, purchasing behaviour and product preferences. Automated the generation of Excel analyses and Word reports, enabling project managers to efficiently interpret customer insights and develop recommendations for brand positioning.",
+    "searchText": "On-demand analytical solutions and reportingMediaImplementationMarketingData & AnalyticsTool DevelopmentAutomationOn-Demand Customer Behaviour Analysis & Reporting Tool",
+    "group": null,
+    "industries": [
+      "Media"
+    ],
+    "departments": [
+      "Marketing"
+    ],
+    "projectTypes": [
+      "Implementation"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Tool Development",
+      "Automation"
+    ]
+  },
+  {
+    "name": "Process Mapping & Redesign",
+    "description": "Mapped and assessed key business processes to identify inefficiencies, unnecessary steps and unclear responsibilities. Developed redesigned TO-BE processes and clarified roles and handovers to create a more efficient and consistent way of working.",
+    "searchText": "Process Mapping & RedesignConsumer GoodsProcess DesignManufacturingProcess DesignProcess OptimisationStrategic Assessment",
+    "group": "Bespoke ERP & Manufacturing Optimisation System",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Manufacturing"
+    ],
+    "projectTypes": [
+      "Process Design"
+    ],
+    "expertise": [
+      "Process Design",
+      "Process Optimisation",
+      "Strategic Assessment"
+    ]
+  },
+  {
+    "name": "ERP Design & Development",
+    "description": "Designed and developed a bespoke Access-based ERP system for a manufacturing company, integrating ordering, production planning, manufacturing orders, inventory, shipping and billing. Built the system around the company’s operational requirements and continuously refined its functionality with the owner as the business evolved.",
+    "searchText": "ERP Design & DevelopmentConsumer GoodsImplementationManufacturingTool DevelopmentProcess DesignData & AnalyticsProcess OptimisationProcess ImplementationBespoke ERP & Manufacturing Management System",
+    "group": "Bespoke ERP & Manufacturing Optimisation System",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Manufacturing"
+    ],
+    "projectTypes": [
+      "Implementation"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Process Design",
+      "Data & Analytics",
+      "Process Optimisation",
+      "Process Implementation"
+    ]
+  },
+  {
+    "name": "Manufacturing optimisation",
+    "description": "Developed an optimisation model to support manufacturing planning and make-versus-outsource decisions for a manufacturer of specialised carbon components. The model assessed production requirements and the economics of internal versus external manufacturing to identify more efficient ways of allocating production.",
+    "searchText": "Manufacturing optimisationConsumer GoodsProcess OptimisationManufacturingSupply Chain OptimisationProcess OptimisationScenario ModellingTool DevelopmentManufacturing Optimisation Model",
+    "group": "Bespoke ERP & Manufacturing Optimisation System",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Manufacturing"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Supply Chain Optimisation",
+      "Process Optimisation",
+      "Scenario Modelling",
+      "Tool Development"
+    ]
+  },
+  {
+    "name": "Inventory reduction modelling — warehouse 64%, stores 52%",
+    "description": "Developed an inventory-reduction model to assess the potential to reduce stock levels across warehouses and stores while maintaining operational requirements. Modelled inventory requirements separately for the two parts of the network, identifying potential inventory reductions of 64% in warehouses and 52% in stores.",
+    "searchText": "Inventory reduction modelling — warehouse 64%, stores 52%TelcoAssessmentSupply ChainSupply Chain OptimisationStrategic AssessmentData & AnalyticsProcess Optimisation",
+    "group": null,
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Supply Chain"
+    ],
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Supply Chain Optimisation",
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Process Optimisation"
+    ]
+  },
+  {
+    "name": "Simplification of telecommunications product portfolio",
+    "description": "Assessed the telco’s existing tariff portfolio to identify opportunities for simplification and improvement. Reviewed the full range of existing tariffs and tested alternative tariff concepts against customer requirements, competitive offerings and commercial considerations, developing recommendations for a more focused and effective portfolio.",
+    "searchText": "Simplification of telecommunications product portfolioTelcoProcess DesignStrategyPricingStrategic AssessmentCommercial EffectivenessData & Analytics",
+    "group": null,
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Process Design"
+    ],
+    "expertise": [
+      "Pricing",
+      "Strategic Assessment",
+      "Commercial Effectiveness",
+      "Data & Analytics"
+    ]
+  },
+  {
+    "name": "Pricing & Margin Management Transformation",
+    "description": "Assessed and redesigned the pricing and margin-management approach for a logistics provider. Analysed the sales and negotiation process, identified gaps in pricing discipline and developed a more structured approach based on customer segmentation, differentiated pricing strategies and a central margin policy to improve commercial performance.",
+    "searchText": "Pricing & Margin Management TransformationLogisticsCommercial ImprovementSalesPricingCommercial EffectivenessProcess DesignStrategic AssessmentData & Analytics",
+    "group": "EU Logistics Cost & Pricing Management",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Pricing",
+      "Commercial Effectiveness",
+      "Process Design",
+      "Strategic Assessment",
+      "Data & Analytics"
+    ]
+  },
+  {
+    "name": "EU Logistics Cost Calculator",
+    "description": "Developed a European logistics cost model covering pickup and delivery, handling, warehousing, linehaul, surcharges and service types. The calculator provided instant cost estimates between two-digit postal-code areas, was used across 10 countries and became the underlying cost engine for subsequent pricing and cost-assessment solutions.",
+    "searchText": "EU Logistics Cost CalculatorLogisticsCost ReductionSalesTool DevelopmentFinancial ModellingData & AnalyticsPricingEU Logistics Cost Calculator",
+    "group": "EU Logistics Cost & Pricing Management",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "projectTypes": [
+      "Cost Reduction"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Financial Modelling",
+      "Data & Analytics",
+      "Pricing"
+    ]
+  },
+  {
+    "name": "Automated Price List & Cost Assessment Tool",
+    "description": "Developed an automated price-list and cost-assessment tool using the EU logistics cost calculator as its underlying engine. The solution generated prices based on origin, destination, shipment characteristics, services and customer segments, incorporating the defined margin policy and relevant historical data. It reduced a previously manual pricing process to seconds and provided a consistent basis for assessing costs and prices.",
+    "searchText": "Automated Price List & Cost Assessment ToolLogisticsImplementationSalesTool DevelopmentAutomationPricingFinancial ModellingData & AnalyticsAutomated Price List & Cost Assessment Tool",
+    "group": "EU Logistics Cost & Pricing Management",
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "projectTypes": [
+      "Implementation"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Automation",
+      "Pricing",
+      "Financial Modelling",
+      "Data & Analytics"
+    ]
+  },
+  {
+    "name": "PMO Initiative Tracking & Dependency Management Tool",
+    "description": "Developed an automated PMO tool to track improvement initiatives, their dependencies and implementation progress. Consolidated initiatives into a structured management view, enabling the PMO to monitor status, identify dependencies and quantify financial impact across the improvement programme.",
+    "searchText": "PMO Initiative Tracking & Dependency Management ToolTelcoImplementationStrategyTool DevelopmentProject ManagementData & AnalyticsPMO Initiative Tracking & Dependency Management Tool",
+    "group": null,
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Implementation"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Project Management",
+      "Data & Analytics"
+    ]
+  },
+  {
+    "name": "Debt Repayment & Investment Scenario Modelling",
+    "description": "Developed a scenario model linking the company’s loans, repayment schedules, financing costs and investment portfolio. Modelled alternative strategies for retaining, selling or liquidating investments and allocating the proceeds towards debt repayment, enabling management to assess the financial impact of different financing scenarios.",
+    "searchText": "Debt Repayment & Investment Scenario ModellingBankingRestructuringFinanceFinancial ModellingScenario ModellingStrategic AssessmentTool DevelopmentDebt Repayment & Investment Scenario Model",
+    "group": null,
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "projectTypes": [
+      "Restructuring"
+    ],
+    "expertise": [
+      "Financial Modelling",
+      "Scenario Modelling",
+      "Strategic Assessment",
+      "Tool Development"
+    ]
+  },
+  {
+    "name": "Bank Card Loyalty Programme Strategy",
+    "description": "Analysed the market and existing bank-card loyalty concepts and developed a loyalty programme concept for a group of banks. Assessed how transaction and customer data could be used to improve targeting and engagement and evaluated reward mechanisms, including cashback, to strengthen the programme proposition.",
+    "searchText": "Bank Card Loyalty Programme StrategyBankingStrategyFinanceStrategyStrategic AssessmentData & AnalyticsCommercial Effectiveness",
+    "group": null,
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Finance"
+    ],
+    "projectTypes": [
+      "Strategy"
+    ],
+    "expertise": [
+      "Strategy",
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Commercial Effectiveness"
+    ]
+  },
+  {
+    "name": "Warehouse Ramp Scheduling & Capacity Management Tool",
+    "description": "Developed a warehouse ramp scheduling and capacity-management tool to coordinate truck arrivals against available ramp capacity. The solution provided a structured view of ramp availability and scheduled arrivals, helping warehouse management balance capacity and improve the flow of inbound vehicles.",
+    "searchText": "Warehouse Ramp Scheduling & Capacity Management ToolLogisticsPerformance ImprovementOperationsTool DevelopmentCapacity ManagementData & AnalyticsProcess OptimisationWarehouse Ramp Scheduling & Capacity Management Tool",
+    "group": null,
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Operations"
+    ],
+    "projectTypes": [
+      "Performance Improvement"
+    ],
+    "expertise": [
+      "Tool Development",
+      "Capacity Management",
+      "Data & Analytics",
+      "Process Optimisation"
+    ]
+  },
+  {
+    "name": "Assortment Analysis Tool",
+    "description": "Developed an Excel-based assortment analysis tool in close collaboration with the client and project manager. The tool automated more than 20 analyses of product and category performance, providing category managers with a structured basis for assessing which products to retain, adjust or remove from the assortment. The solution translated the analytical requirements of the category-management process into a practical tool that could be used directly by category managers.",
+    "searchText": "Assortment Analysis ToolRetailCommercial ImprovementCommercialData & AnalyticsTool DevelopmentCommercial EffectivenessAutomation",
+    "group": "Category Management Planning & Analytics",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Commercial"
+    ],
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Tool Development",
+      "Commercial Effectiveness",
+      "Automation"
+    ]
+  },
+  {
+    "name": "Promotion Performance Analysis & Reporting",
+    "description": "Developed a standardised framework and analytical solution to assess whether promotions were delivering the targets and strategic objectives established for each category. Analysed promotional performance against category plans and provided consistent reporting on the outcomes achieved, enabling management and category managers to identify where promotional activity was aligned with strategy and where adjustments were required.",
+    "searchText": "Promotion Performance Analysis & ReportingRetailCommercial ImprovementCommercialData & AnalyticsCommercial EffectivenessPerformance ManagementTool DevelopmentPromotion Performance Analysis & Reporting Framework",
+    "group": "Category Management Planning & Analytics",
+    "industries": [
+      "Retail"
+    ],
+    "departments": [
+      "Commercial"
+    ],
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Commercial Effectiveness",
+      "Performance Management",
+      "Tool Development"
+    ]
+  },
+  {
+    "name": "Administration & Document Management Process Optimisation",
+    "description": "Assessed administrative activities and workloads to optimise span of control and determine appropriate secretarial capacity. Analysed time spent across processes and identified opportunities to improve performance, including redesigning the document-handling process and introducing a digital document-management workflow covering document receipt, scanning, identification, distribution, approval and workflow management. The proposed approach was expected to accelerate processing and reduce the risk of documents being lost.",
+    "searchText": "Administration & Document Management Process OptimisationConsumer GoodsProcess OptimisationAdministrationProcess OptimisationWorkforce UtilisationOrganisation DesignStrategic AssessmentData & Analytics",
+    "group": "Administrative, Reporting & Finance Performance Optimisation",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Administration"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Process Optimisation",
+      "Workforce Utilisation",
+      "Organisation Design",
+      "Strategic Assessment",
+      "Data & Analytics"
+    ]
+  },
+  {
+    "name": "Reporting Optimisation",
+    "description": "Reviewed the organisation’s reporting landscape to identify which reports were used, by whom and for what purpose. Eliminated unnecessary and overlapping reports and redesigned key reports to provide more relevant and efficient management information while reducing the overall reporting burden.",
+    "searchText": "Reporting OptimisationConsumer GoodsProcess OptimisationStrategyProcess OptimisationStrategic Assessment",
+    "group": "Administrative, Reporting & Finance Performance Optimisation",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Process Optimisation",
+      "Strategic Assessment"
+    ]
+  },
+  {
+    "name": "Finance Process Optimisation",
+    "description": "Assessed finance processes through detailed activity analysis to quantify the FTE effort required for each process and establish productivity per output. Collected and analysed process outputs and benchmarked finance productivity against comparable organisations to identify performance gaps and develop opportunities for process improvement and FTE optimisation.",
+    "searchText": "Finance Process OptimisationConsumer GoodsProcess OptimisationFinanceProcess OptimisationWorkforce UtilisationData & AnalyticsStrategic Assessment",
+    "group": "Administrative, Reporting & Finance Performance Optimisation",
     "industries": [
       "Consumer Goods"
     ],
     "departments": [
       "Finance"
     ],
-    "expertise": [
-      "Reporting"
+    "projectTypes": [
+      "Process Optimisation"
     ],
-    "capabilities": [
-      "Consulting"
+    "expertise": [
+      "Process Optimisation",
+      "Workforce Utilisation",
+      "Data & Analytics",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "SAP implementation lead for logistics provider",
+    "name": "SAP Finance Integration & Data Migration for Company Merger",
+    "description": "Led the PMO for the integration of two acquired companies into a single organisation and SAP finance environment. Prepared the SAP setup, environment testing, user training and new finance roles and organisation, while leading the consolidation of master data such as cost types and accounts payable customers across the two legacy systems. Managed a team of three students and ran multiple data-consolidation test cycles; the final year-end migration was completed in two hours, with the resulting P&L and balance sheet differing by only a few cents from the source companies.",
+    "searchText": "SAP Finance Integration & Data Migration for Company MergerLogisticsTransformationFinanceData & AnalyticsProcess DesignProject ManagementTool Development",
+    "group": null,
     "industries": [
       "Logistics"
     ],
     "departments": [
-      "IT"
+      "Finance"
+    ],
+    "projectTypes": [
+      "Transformation"
     ],
     "expertise": [
-      "ERP"
-    ],
-    "capabilities": [
-      "Implementation"
+      "Data & Analytics",
+      "Process Design",
+      "Project Management",
+      "Tool Development"
     ]
   },
   {
-    "name": "SEE resin market research and takeover target identification for large resin producer",
+    "name": "SEE Resin Market Analysis & Acquisition Target Identification",
+    "description": "Analysed the South-East European resin market to understand the competitive landscape and identify potential acquisition targets. Mapped relevant companies and assessed their profiles to develop a targeted list of acquisition opportunities for the client.",
+    "searchText": "SEE Resin Market Analysis & Acquisition Target IdentificationConsumer GoodsMarket EntryStrategyStrategic AssessmentData & AnalyticsMarket Assessment",
+    "group": null,
     "industries": [
-      "Chemicals/Resin"
+      "Consumer Goods"
     ],
-    "departments": [],
+    "departments": [
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Market Entry"
+    ],
     "expertise": [
-      "Market Research",
-      "M&A"
-    ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Market Assessment"
     ]
   },
   {
-    "name": "Client and industry identification for focused sales strategy",
-    "industries": [],
+    "name": "B2B Market Mapping & Sales Prioritisation (Slovenia)",
+    "description": "Mapped companies across Slovenia and classified them according to their most dominant industry. Translated the market mapping into a focused sales-targeting approach, enabling consultants to prioritise companies and industries with the strongest relevance for their services.",
+    "searchText": "B2B Market Mapping & Sales Prioritisation (Slovenia)OtherSales EnhancementSalesData & AnalyticsSales EnhancementTool Development",
+    "group": null,
+    "industries": [
+      "Other"
+    ],
     "departments": [
       "Sales"
     ],
-    "expertise": [
-      "Market Research",
-      "Sales Strategy"
+    "projectTypes": [
+      "Sales Enhancement"
     ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
+    "expertise": [
+      "Data & Analytics",
+      "Sales Enhancement",
+      "Tool Development"
     ]
   },
   {
-    "name": "Fact-based supplier negotiations for large Retailer",
+    "name": "Client 1: negotiation-potential tool",
+    "description": "Developed a structured approach to quantify supplier negotiation potential based on supplier economics, purchasing volumes and margins. Applied the approach across three clients, ranging from analytical models to dedicated negotiation tools, including cases where product margins had to be calculated from underlying cost data. For one client, translated the analysis into supplier- and category-level negotiation targets, provided category managers with practical negotiation materials and trained them to use the analysis in supplier negotiations.",
+    "searchText": "Client 1: negotiation-potential toolRetailCommercial ImprovementProcurementSupplier NegotiationData & AnalyticsFinancial ModellingTool DevelopmentSupplier Negotiation Potential Tool",
+    "group": "Supplier Negotiation Potential & Strategy Development",
     "industries": [
       "Retail"
     ],
     "departments": [
-      "Sourcing"
+      "Procurement"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Supplier Negotiation",
+      "Data & Analytics",
+      "Financial Modelling",
+      "Tool Development"
     ]
   },
   {
-    "name": "Profitability modelling for Bank",
+    "name": "Bank Product Profitability Modelling & Management Framework",
+    "description": "Developed a framework for allocating costs to individual bank products and calculating product-level profitability, with the approach demonstrated through a detailed product example. Integrated the profitability model into a broader management dashboard and governance concept, designed to give the CEO and management team visibility into product profitability and support ongoing performance and decision-making.",
+    "searchText": "Bank Product Profitability Modelling & Management FrameworkBankingAssessmentFinanceCost Allocation & ProfitabilityFinancial ModellingData & AnalyticsTool DevelopmentBank Product Profitability Model & Management Framework",
+    "group": null,
     "industries": [
       "Banking"
     ],
     "departments": [
       "Finance"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Analytics"
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Cost Allocation & Profitability",
+      "Financial Modelling",
+      "Data & Analytics",
+      "Tool Development"
     ]
   },
   {
-    "name": "EBITDA improvement for 3PL logistics provider (road), 530k EUR on 20m EUR revenue",
+    "name": "Client 2: Cost Allocation, Margin Construction & Negotiation Potential",
+    "description": "Developed a structured approach to quantify supplier negotiation potential based on supplier economics, purchasing volumes and margins. Applied the approach across three clients, ranging from analytical models to dedicated negotiation tools, including cases where product margins had to be calculated from underlying cost data. For one client, translated the analysis into supplier- and category-level negotiation targets, provided category managers with practical negotiation materials and trained them to use the analysis in supplier negotiations.",
+    "searchText": "Client 2: Cost Allocation, Margin Construction & Negotiation PotentialRetailCommercial ImprovementCommercialCost Allocation & ProfitabilityFinancial ModellingSupplier NegotiationData & AnalyticsSupplier Cost, Margin & Negotiation Model",
+    "group": "Supplier Negotiation Potential & Strategy Development",
     "industries": [
-      "Logistics/3PL"
+      "Retail"
     ],
     "departments": [
-      "Finance",
-      "Operations"
+      "Commercial"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
+    "projectTypes": [
+      "Commercial Improvement"
+    ],
+    "expertise": [
+      "Cost Allocation & Profitability",
+      "Financial Modelling",
+      "Supplier Negotiation",
+      "Data & Analytics"
     ]
   },
   {
-    "name": "Employee capability assessment for large Consumer Goods manufacturer",
+    "name": "Logistics Profitability Improvement Assessment (€530k Potential)",
+    "description": "Analysed the profitability of a logistics provider with approximately €20M in revenue to identify opportunities for EBITDA improvement. Assessed profitability across routes, suppliers and products, identifying areas where pricing, costs or commercial conditions could be improved. Quantified approximately €530k of potential profitability improvement and provided a basis for prioritising improvement opportunities.",
+    "searchText": "Logistics Profitability Improvement Assessment (€530k Potential)LogisticsAssessmentStrategyCost Allocation & ProfitabilityData & AnalyticsStrategic AssessmentCommercial Effectiveness",
+    "group": null,
+    "industries": [
+      "Logistics"
+    ],
+    "departments": [
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Cost Allocation & Profitability",
+      "Data & Analytics",
+      "Strategic Assessment",
+      "Commercial Effectiveness"
+    ]
+  },
+  {
+    "name": "Employee Capability Assessment & Gap Analysis",
+    "description": "Developed a structured employee capability assessment based on a psychologically validated questionnaire, capturing self-assessments as well as assessments by superiors and subordinates. Consolidated the results into an Excel-based analytical tool and dashboards that enabled project managers to assess capabilities across the organisation, compare different perspectives and identify gaps between expected and observed capabilities. The approach provided management with a structured basis for understanding workforce capability and development needs.",
+    "searchText": "Employee Capability Assessment & Gap AnalysisConsumer GoodsAssessmentHRCapability AssessmentData & AnalyticsTool DevelopmentEmployee Capability Assessment & Gap Analysis Tool",
+    "group": null,
     "industries": [
       "Consumer Goods"
     ],
     "departments": [
       "HR"
     ],
+    "projectTypes": [
+      "Assessment"
+    ],
     "expertise": [
-      "Capability Building"
-    ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
+      "Capability Assessment",
+      "Data & Analytics",
+      "Tool Development"
     ]
   },
   {
-    "name": "Project cost (billable hours) monitoring system design & development for advertising agency",
+    "name": "Project Cost Monitoring & Billable Hours System",
+    "description": "Designed a project-cost monitoring system for an advertising agency to capture employees’ billable hours by project and allocate labour costs accordingly. Developed the underlying cost-allocation logic and reporting, enabling Accounting and Controlling to add other project costs and calculate profitability at the project level. The solution established a structured link between employee time, allocated costs and progressively more complete measures of project profitability.",
+    "searchText": "Project Cost Monitoring & Billable Hours SystemMediaPerformance ImprovementFinanceCost Allocation & ProfitabilityTool DevelopmentData & AnalyticsFinancial ModellingProject Cost Monitoring & Billable Hours System",
+    "group": null,
     "industries": [
-      "Advertising/Media"
+      "Media"
     ],
-    "departments": [
-      "Finance",
-      "IT"
-    ],
-    "expertise": [],
-    "capabilities": [
-      "Implementation"
-    ]
-  },
-  {
-    "name": "Growth strategy development and modelling",
-    "industries": [],
     "departments": [
       "Finance"
     ],
+    "projectTypes": [
+      "Performance Improvement"
+    ],
     "expertise": [
+      "Cost Allocation & Profitability",
+      "Tool Development",
+      "Data & Analytics",
+      "Financial Modelling"
+    ]
+  },
+  {
+    "name": "Growth Strategy Impact Modelling & Tool",
+    "description": "Integrated the initiatives developed as part of a large telco operator’s growth strategy into a single modelling tool. Developed a five-year P&L impact model that translated different levels of initiative implementation into projected financial outcomes, enabling management to assess the potential impact of execution performance on the overall growth strategy. The tool provided an integrated view of initiatives and their cumulative financial impact over time.",
+    "searchText": "Growth Strategy Impact Modelling & ToolTelcoStrategyStrategyFinancial Impact ModellingTool DevelopmentData & AnalyticsGrowth Strategy Impact Model",
+    "group": null,
+    "industries": [
+      "Telco"
+    ],
+    "departments": [
       "Strategy"
     ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
-    ]
-  },
-  {
-    "name": "PMO for sourcing savings implementation for public holding (project/change management)",
-    "industries": [
-      "Public Sector/Holding"
-    ],
-    "departments": [
-      "Sourcing"
+    "projectTypes": [
+      "Strategy"
     ],
     "expertise": [
-      "PMO",
-      "Change Management"
-    ],
-    "capabilities": [
-      "PMO",
-      "Implementation"
+      "Financial Impact Modelling",
+      "Tool Development",
+      "Data & Analytics"
     ]
   },
   {
-    "name": "Due diligence and scenario modelling for consumer goods producer (Bakery)",
+    "name": "Bakery due diligence and scenario modelling",
+    "description": "Assessed the profitability of a bakery business by analysing revenue and allocating relevant costs to establish its underlying financial performance. Developed five-year scenarios and quantified their financial impact using NPV analysis, while conducting a strategic SWOT assessment to evaluate the relative likelihood of each scenario. The analysis provided an integrated view of current profitability, future value and the strategic factors influencing the most likely outcome.",
+    "searchText": "Bakery due diligence and scenario modellingConsumer GoodsStrategyStrategyCost Allocation & ProfitabilityScenario ModellingStrategic AssessmentModel DevelopmentBakery Profitability & Scenario Model",
+    "group": null,
     "industries": [
-      "Consumer Goods/Bakery"
+      "Consumer Goods"
     ],
     "departments": [
-      "Finance"
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Strategy"
     ],
     "expertise": [
-      "M&A"
-    ],
-    "capabilities": [
-      "Analytics"
+      "Cost Allocation & Profitability",
+      "Scenario Modelling",
+      "Strategic Assessment",
+      "Model Development"
     ]
   },
   {
-    "name": "Shop monitoring system design & development (mystery shopping data tracking) for large tech company",
+    "name": "Mystery Shopping Performance Monitoring System",
+    "description": "Developed a store-performance monitoring system based on mystery-shopping assessments conducted across the retail network. Consolidated and cleaned questionnaire data collected by students, then built an Access database and application that ranked stores by overall performance and enabled users to drill down from store-level scores to individual questionnaire responses and supporting photographs. The system transformed large volumes of mystery-shopping data into a structured tool for monitoring and comparing store performance.",
+    "searchText": "Mystery Shopping Performance Monitoring SystemConsumer GoodsAssessmentMarketingTool DevelopmentData & AnalyticsProcess OptimisationStores monitoring system",
+    "group": null,
     "industries": [
-      "Technology"
+      "Consumer Goods"
     ],
     "departments": [
-      "IT",
-      "Operations"
+      "Marketing"
+    ],
+    "projectTypes": [
+      "Assessment"
     ],
     "expertise": [
-      "Retail Operations"
-    ],
-    "capabilities": [
-      "Implementation"
+      "Tool Development",
+      "Data & Analytics",
+      "Process Optimisation"
     ]
   },
   {
-    "name": "Master data structuring and reporting development for hospital (70,000 patients)",
+    "name": "Hospital Data Structuring & Reporting (70,000 patients)",
+    "description": "Designed the core data structure and led a two-person analytical team in developing a Tableau-based BI solution for monitoring clinical activity across hospital care. Led the client-facing development process, incorporating feedback through multiple iterations and delivering interactive dashboards for management reporting and analysis.",
+    "searchText": "Hospital Data Structuring & Reporting (70,000 patients)HealthcareImplementationOperationsTool DevelopmentData & AnalyticsLeadershipClient ManagementClinical Activity Data Model & Reporting Solution",
+    "group": null,
     "industries": [
       "Healthcare"
     ],
     "departments": [
-      "IT"
+      "Operations"
+    ],
+    "projectTypes": [
+      "Implementation"
     ],
     "expertise": [
-      "Data Management",
-      "Reporting"
-    ],
-    "capabilities": [
-      "Implementation",
-      "Reporting/BI"
+      "Tool Development",
+      "Data & Analytics",
+      "Leadership",
+      "Client Management"
     ]
   },
   {
-    "name": "National healthcare improvement program (quick-gain savings and service quality)",
+    "name": "National healthcare improvement programme (2M patients)",
+    "description": "Developed Microsoft Power BI reporting for a national healthcare improvement programme, structuring and visualizing KPIs across municipalities, municipality groups and regions through interactive tables and maps. Developed a PEAK model to establish baseline ambulance response times and assess the potential improvement from reallocating vehicles between hospitals.",
+    "searchText": "National healthcare improvement programme (2M patients)HealthcareAssessmentOperationsTool DevelopmentData & AnalyticsScenario ModellingHealthcare Performance Reporting & Ambulance Response Model",
+    "group": null,
     "industries": [
-      "Healthcare",
-      "Public Sector"
+      "Healthcare"
     ],
     "departments": [
       "Operations"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
-    ]
-  },
-  {
-    "name": "Shared services assessment for large conglomerate (1.5bn EUR, 60+ companies)",
-    "industries": [
-      "Conglomerate/Diversified"
-    ],
-    "departments": [
-      "Operations"
+    "projectTypes": [
+      "Assessment"
     ],
     "expertise": [
-      "Shared Services"
-    ],
-    "capabilities": [
-      "Consulting",
-      "Analytics"
+      "Tool Development",
+      "Data & Analytics",
+      "Scenario Modelling"
     ]
   },
   {
-    "name": "Sales improvement for construction material manufacturer (+15M EUR)",
+    "name": "Shared-services assessment across 60+ companies",
+    "description": "Led an assessment of the shared-services model across 60+ companies from internal and external perspectives. Analysed interviews, FTE and financial data internally, and compared the model with external benchmarks, best practices and comparable organisations. Confirmed the relevance and financial value of the existing model, while identifying deficiencies in the integration of companies and stakeholder adoption. Quantified both the savings generated by the existing shared-services model and the additional savings potential from completing the integration, and developed improvement options and recommendations for the Board.",
+    "searchText": "Shared-services assessment across 60+ companiesOtherAssessmentCompany-wideLeadershipStrategic AssessmentData & AnalyticsInsightsClient Management",
+    "group": null,
     "industries": [
-      "Construction Materials"
+      "Other"
+    ],
+    "departments": [
+      "Company-wide"
+    ],
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Leadership",
+      "Strategic Assessment",
+      "Data & Analytics",
+      "Insights",
+      "Client Management"
+    ]
+  },
+  {
+    "name": "Construction material manufacturer: Sales Improvement Potential +€15M",
+    "description": "Led a sales improvement programme for a construction materials manufacturer, identifying approximately €15M of sales improvement potential through extensive data clean-up, customer segmentation and commercial analysis. Developed differentiated rebate policies, hierarchical approval levels and cross-selling strategies to improve pricing discipline and customer development. Managed a junior team member and led senior client interactions and presentation of recommendations.",
+    "searchText": "Construction material manufacturer: Sales Improvement Potential +€15MConsumer GoodsSales EnhancementSalesData & AnalyticsPricingCommercial StrategyLeadershipClient Management",
+    "group": null,
+    "industries": [
+      "Consumer Goods"
     ],
     "departments": [
       "Sales"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
+    "projectTypes": [
+      "Sales Enhancement"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Pricing",
+      "Commercial Strategy",
+      "Leadership",
+      "Client Management"
     ]
   },
   {
-    "name": "Customer-oriented retail sales organization design for large bank",
+    "name": "Sales Performance & Incentive Management Tool",
+    "description": "Assessed sales performance and the credit process, identifying opportunities to improve sales management and process efficiency. Redesigned the credit process and developed a tool to consolidate sales data, track performance and provide management with a structured view of results. Supported the client in implementing the solution.",
+    "searchText": "Sales Performance & Incentive Management ToolBankingSales EnhancementSalesData & AnalyticsProcess OptimisationTool DevelopmentSales Performance Tool",
+    "group": "Sales Performance & Incentive Management",
     "industries": [
       "Banking"
     ],
     "departments": [
       "Sales"
     ],
-    "expertise": [
-      "Organization Design"
+    "projectTypes": [
+      "Sales Enhancement"
     ],
-    "capabilities": [
-      "Consulting"
+    "expertise": [
+      "Data & Analytics",
+      "Process Optimisation",
+      "Tool Development"
     ]
   },
   {
-    "name": "Sales growth via digital/SaaS solutions for large EU Telco (3 countries, 600+ sales reps)",
+    "name": "B2B Sales Organisation Design",
+    "description": "Designed a new B2B sales organisation to create clearer roles, responsibilities and reporting structures. Developed the target organisation structure, defined roles and responsibilities, created RACI matrices and determined the required staffing levels for each role.",
+    "searchText": "B2B Sales Organisation DesignBankingOrganisation DesignSalesOrganisation DesignProcess Design",
+    "group": null,
+    "industries": [
+      "Banking"
+    ],
+    "departments": [
+      "Sales"
+    ],
+    "projectTypes": [
+      "Organisation Design"
+    ],
+    "expertise": [
+      "Organisation Design",
+      "Process Design"
+    ]
+  },
+  {
+    "name": "Digital/SaaS sales acceleration across 3 countries",
+    "description": "Assessed the potential for a telecommunications provider to expand into third-party cloud services across three countries. Evaluated market potential, relevant products and sales approaches, and assessed how sales teams operated and where knowledge and sales-skill gaps limited the opportunity. Developed country-specific recommendations reflecting significant differences in market conditions and sales capabilities.",
+    "searchText": "Digital/SaaS sales acceleration across 3 countriesTelcoSales EnhancementSalesData & AnalyticsStrategic AssessmentSales Enhancement",
+    "group": "Cloud Services Sales Enablement & Performance Management",
     "industries": [
       "Telco"
     ],
     "departments": [
-      "Sales",
-      "IT"
+      "Sales"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Consulting"
+    "projectTypes": [
+      "Sales Enhancement"
+    ],
+    "expertise": [
+      "Data & Analytics",
+      "Strategic Assessment",
+      "Sales Enhancement"
     ]
   },
   {
-    "name": "On-demand Target Group Index reports (40+ pages within 2 hours) for Media company",
+    "name": "TGI Reporting Automation (40+ pages of reporting generated in ~15 minutes)",
+    "description": "Developed an Excel-based reporting tool for an advertising agency using its TGI consumer research database, covering product and brand usage across a broad range of consumer categories. Automated the generation of 120+ charts and their transfer into structured Word report chapters, reducing the production of 40+ pages of reporting to approximately two hours. The solution enabled project managers to focus on interpreting the results and developing recommendations rather than manually preparing the analysis and charts.",
+    "searchText": "TGI Reporting Automation (40+ pages of reporting generated in ~15 minutes)MediaImplementationMarketingAutomationTool DevelopmentData & AnalyticsAutomated TGI Reporting Tool",
+    "group": null,
     "industries": [
       "Media"
     ],
-    "departments": [],
-    "expertise": [
-      "Reporting"
+    "departments": [
+      "Marketing"
     ],
-    "capabilities": [
-      "Reporting/BI"
+    "projectTypes": [
+      "Implementation"
+    ],
+    "expertise": [
+      "Automation",
+      "Tool Development",
+      "Data & Analytics"
     ]
   },
   {
-    "name": "Complexity reduction analysis (customer loss impact on operations) for 3PL express logistics provider",
+    "name": "Customer Portfolio Scenario Modelling & Operational Impact Assessment",
+    "description": "Developed a scenario-modelling tool to assess the financial and operational impact of changing the customer portfolio across two complementary lines of business: a high-volume, lower-margin service that supported operational scale and a lower-volume, higher-margin service. The tool enabled management to select individual customers or combinations of customers and simulate scenarios such as price increases or discontinuation, showing the resulting impact on revenue and margin as well as the operational changes required to adjust capacity and service levels. This provided management with a structured basis for evaluating customer and portfolio decisions while considering both financial and operational consequences.",
+    "searchText": "Customer Portfolio Scenario Modelling & Operational Impact AssessmentLogisticsAssessmentStrategyScenario ModellingFinancial ModellingData & AnalyticsTool DevelopmentScenario modelling tool",
+    "group": null,
     "industries": [
-      "Logistics/3PL"
+      "Logistics"
     ],
     "departments": [
-      "Operations"
+      "Strategy"
+    ],
+    "projectTypes": [
+      "Assessment"
     ],
     "expertise": [
-      "Complexity Management"
-    ],
-    "capabilities": [
-      "Analytics",
-      "Consulting"
+      "Scenario Modelling",
+      "Financial Modelling",
+      "Data & Analytics",
+      "Tool Development"
     ]
   },
   {
-    "name": "Profitability modelling for Telco",
+    "name": "Profitability Modelling & Value-Driver Analysis",
+    "description": "Developed a profitability model for a telecommunications provider to establish a trusted view of the economics of products, services, lines of business and business units. Regrouped the complete cost base, defined appropriate cost drivers for each cost category, collected the required driver data and allocated costs through the organisation to products. Built a management tool that calculated profitability at multiple levels and provided the client with instructions for ongoing use. The analysis identified an unprofitable product that management immediately decided to eliminate.",
+    "searchText": "Profitability Modelling & Value-Driver AnalysisTelcoAssessmentStrategyCost Allocation & ProfitabilityData & AnalyticsFinancial ModellingTool DevelopmentProfitability Management Tool",
+    "group": null,
     "industries": [
       "Telco"
     ],
     "departments": [
-      "Finance"
+      "Strategy"
     ],
-    "expertise": [],
-    "capabilities": [
-      "Analytics"
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Cost Allocation & Profitability",
+      "Data & Analytics",
+      "Financial Modelling",
+      "Tool Development"
     ]
   },
   {
-    "name": "Supply chain inefficiency reduction for consumer goods producer",
+    "name": "Supply Chain Inefficiency Assessment & Improvement",
+    "description": "Assessed the end-to-end supply chain, covering ordering, production planning, manufacturing-line operations and logistics, to identify operational inefficiencies and improvement opportunities. Developed improvement initiatives and recommendations for the management team to improve the overall efficiency of the supply chain.",
+    "searchText": "Supply Chain Inefficiency Assessment & ImprovementConsumer GoodsAssessmentSupply ChainSupply Chain OptimisationProcess OptimisationData & AnalyticsStrategic Assessment",
+    "group": null,
     "industries": [
       "Consumer Goods"
     ],
     "departments": [
-      "Operations"
-    ],
-    "expertise": [
       "Supply Chain"
     ],
-    "capabilities": [
-      "Consulting"
+    "projectTypes": [
+      "Assessment"
+    ],
+    "expertise": [
+      "Supply Chain Optimisation",
+      "Process Optimisation",
+      "Data & Analytics",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "PMO for core process improvement implementation",
-    "industries": [],
+    "name": "Core Process Improvement Implementation PMO",
+    "description": "Led the implementation of the redesigned core processes, organisation structure and 30+ improvement initiatives through a dedicated PMO. Coordinated implementation activities, monitored progress and supported management in translating the target operating model into the organisation.",
+    "searchText": "Core Process Improvement Implementation PMOOtherPMOOperationsProject ManagementProcess ImplementationOrganisation DesignLeadershipClient Management",
+    "group": "Operations Process & Organisation Redesign & Implementation",
+    "industries": [
+      "Other"
+    ],
     "departments": [
       "Operations"
     ],
-    "expertise": [
-      "Process Improvement"
+    "projectTypes": [
+      "PMO"
     ],
-    "capabilities": [
-      "PMO",
-      "Implementation"
+    "expertise": [
+      "Project Management",
+      "Process Implementation",
+      "Organisation Design",
+      "Leadership",
+      "Client Management"
     ]
   },
   {
-    "name": "Core process optimisation implementation",
-    "industries": [],
+    "name": "HR data consolidation and labor-cost reporting",
+    "description": "Developed a country-specific HR labour-cost consolidation and allocation solution to replace a manual process dependent on individual employee knowledge. The solution incorporated dynamic classification rules, employee and cost-centre allocation logic, historical employee data and reconciliation of additional labour costs with Finance. Worked with HR users to define, test and refine the solution and trained them to operate it, reducing manual processing from 3–4 days to 2–3 hours.",
+    "searchText": "HR data consolidation and labor-cost reportingConsumer GoodsProcess OptimisationHRAutomationTool DevelopmentData & AnalyticsProcess OptimisationChange ManagementHR Labour Cost Consolidation & Allocation Tool",
+    "group": "HR Data Consolidation & Labour Cost Reporting Automation",
+    "industries": [
+      "Consumer Goods"
+    ],
     "departments": [
-      "Operations"
+      "HR"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
     ],
     "expertise": [
-      "Process Improvement"
-    ],
-    "capabilities": [
-      "Implementation",
-      "Consulting"
+      "Automation",
+      "Tool Development",
+      "Data & Analytics",
+      "Process Optimisation",
+      "Change Management"
     ]
   },
   {
-    "name": "Store price change process optimisation for Retailer",
+    "name": "HR data consolidation and labor-cost reporting",
+    "description": "Developed a country-specific HR data consolidation and validation solution to automate the processing of 25+ outsourced payroll files with inconsistent structures. The solution extracted and standardised the source data, consolidated the files and validated agency cost-centre allocations against contractual rules, while incorporating country-specific KPI calculations. Tested the solution iteratively with HR and trained the user to operate the new process.",
+    "searchText": "HR data consolidation and labor-cost reportingConsumer GoodsProcess OptimisationHRAutomationTool DevelopmentData & AnalyticsProcess OptimisationAutomated HR Data Consolidation & Allocation Validation Tool",
+    "group": "HR Data Consolidation & Labour Cost Reporting Automation",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "HR"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Automation",
+      "Tool Development",
+      "Data & Analytics",
+      "Process Optimisation"
+    ]
+  },
+  {
+    "name": "HR data consolidation and labor-cost reporting",
+    "description": "Developed a country-specific payroll data integration and cost-allocation solution for a complex multi-source environment. Consolidated multiple payroll files, reconciled employee-level and cost-centre-level data, and established clear rules defining the source and allocation logic for each field. Developed employee-matching logic to handle inconsistent naming conventions and trained HR users to validate and operate the solution.",
+    "searchText": "HR data consolidation and labor-cost reportingConsumer GoodsProcess OptimisationHRAutomationTool DevelopmentData & AnalyticsProcess OptimisationPayroll Data Integration & Cost Allocation Tool",
+    "group": "HR Data Consolidation & Labour Cost Reporting Automation",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "HR"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Automation",
+      "Tool Development",
+      "Data & Analytics",
+      "Process Optimisation"
+    ]
+  },
+  {
+    "name": "HR data consolidation and labor-cost reporting",
+    "description": "Developed a country-specific HR reporting solution that enabled multiple management and Controlling reports to be generated from a common consolidated dataset. Redesigned the reporting workflow to reduce duplicate data preparation, tested the solution iteratively and trained the HR user to reuse the same underlying data structure across different reporting requirements.",
+    "searchText": "HR data consolidation and labor-cost reportingConsumer GoodsProcess OptimisationHRAutomationTool DevelopmentData & AnalyticsProcess OptimisationHR Labour Cost Reporting Tool",
+    "group": "HR Data Consolidation & Labour Cost Reporting Automation",
+    "industries": [
+      "Consumer Goods"
+    ],
+    "departments": [
+      "HR"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
+    ],
+    "expertise": [
+      "Automation",
+      "Tool Development",
+      "Data & Analytics",
+      "Process Optimisation"
+    ]
+  },
+  {
+    "name": "Store Price-Change Process Optimisation (20–30% Time Reduction Potential)",
+    "description": "Assessed the manual store price-change process, from printing new labels through locating products and replacing shelf labels. Observed the process across several stores and conducted a two-week time-and-motion assessment using structured questionnaires to measure the time required for each activity. Consolidated the observations to establish a detailed baseline of the current process and identified improvements including faster label printing and sequencing labels according to their location in the stores. Quantified the resulting time reduction, FTE requirements and cost savings, with potential time savings of approximately 20–30%.",
+    "searchText": "Store Price-Change Process Optimisation (20–30% Time Reduction Potential)RetailProcess OptimisationOperationsProcess OptimisationData & AnalyticsStrategic Assessment20–30% time reduction potential, with corresponding FTE and cost savings identified",
+    "group": null,
     "industries": [
       "Retail"
     ],
     "departments": [
       "Operations"
     ],
-    "expertise": [
-      "Pricing"
+    "projectTypes": [
+      "Process Optimisation"
     ],
-    "capabilities": [
-      "Consulting",
-      "Implementation"
+    "expertise": [
+      "Process Optimisation",
+      "Data & Analytics",
+      "Strategic Assessment"
     ]
   },
   {
-    "name": "Bank branch staff capability optimization for servicing SME corporate clients",
+    "name": "Bank Branch Sales & Service Capacity Optimisation",
+    "description": "Assessed the staffing requirements of a bank’s branch network to determine how many employees were needed to serve existing business customers while maintaining capacity to acquire new ones. An initial assessment based on average companies per employee was challenged by the client, who highlighted that equal staffing ratios would constrain growth. Developed a more detailed capacity model using the full company database, geocoding companies and allocating them to their nearest branches to establish local market potential. Separated branch capacity between existing-customer service and new-business acquisition, calculated required staffing by branch, compared this with the current organisation and developed recommended staff transitions. The enhanced analysis was well received by the client and recognised internally within the consulting organisation.",
+    "searchText": "Bank Branch Sales & Service Capacity OptimisationBankingPerformance ImprovementSalesWorkforce UtilisationData & AnalyticsScenario ModellingTool DevelopmentOrganisation DesignBranch Sales & Service Capacity Model",
+    "group": null,
     "industries": [
       "Banking"
     ],
     "departments": [
-      "HR",
       "Sales"
     ],
-    "expertise": [
-      "Capability Building"
+    "projectTypes": [
+      "Performance Improvement"
     ],
-    "capabilities": [
-      "Consulting"
+    "expertise": [
+      "Workforce Utilisation",
+      "Data & Analytics",
+      "Scenario Modelling",
+      "Tool Development",
+      "Organisation Design"
     ]
   },
   {
-    "name": "Document management process optimization for large bank",
+    "name": "Document-management process optimization — 20–30% efficiency",
+    "description": "Assessed the end-to-end document-handling process within a bank, from document receipt and classification through data entry and processing in the relevant systems. Analysed the individual process steps to identify sources of unnecessary complexity, delays and potential errors, and developed recommendations to simplify and accelerate the workflow while improving accuracy.",
+    "searchText": "Document-management process optimization — 20–30% efficiencyBankingProcess OptimisationAdministrationProcess OptimisationStrategic Assessment",
+    "group": null,
     "industries": [
       "Banking"
     ],
     "departments": [
-      "Operations",
-      "IT"
+      "Administration"
+    ],
+    "projectTypes": [
+      "Process Optimisation"
     ],
     "expertise": [
-      "Document Management"
-    ],
-    "capabilities": [
-      "Consulting",
-      "Implementation"
+      "Process Optimisation",
+      "Strategic Assessment"
     ]
   }
 ]
