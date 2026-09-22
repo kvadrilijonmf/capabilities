@@ -28,6 +28,74 @@ const INDUSTRY_ICONS = {
   Other: "🔹",
 };
 
+const PROJECT_TYPE_ICONS = {
+  "Process Optimisation": "⚙️",
+  Assessment: "🔍",
+  "Commercial Improvement": "💹",
+  Strategy: "♟️",
+  "Performance Improvement": "📈",
+  Implementation: "🛠️",
+  "Sales Enhancement": "🤝",
+  "Process Design": "🧩",
+  Restructuring: "🔄",
+  "Organisation Design": "🏛️",
+  "Market Entry": "🚀",
+  "Cost Reduction": "✂️",
+  Other: "🔹",
+};
+
+const DEPARTMENT_ICONS = {
+  Sales: "🤝",
+  Strategy: "♟️",
+  Finance: "💵",
+  Operations: "🏭",
+  Commercial: "💼",
+  "Supply Chain": "🚚",
+  HR: "👥",
+  Manufacturing: "🏗️",
+  Procurement: "📦",
+  "Company-wide": "🌐",
+  Marketing: "📣",
+  Other: "🔹",
+};
+
+const EXPERTISE_ICONS = {
+  "Data & Analytics": "📊",
+  "Tool Development": "🧰",
+  "Strategic Assessment": "🔍",
+  "Process Optimisation": "⚙️",
+  Automation: "🤖",
+  "Scenario Modelling": "🧮",
+  "Process Design": "🧩",
+  "Financial Modelling": "📉",
+  "Commercial Effectiveness": "💹",
+  "Organisation Design": "🏛️",
+  "Cost Allocation & Profitability": "💰",
+  Pricing: "🏷️",
+  "Supply Chain Optimisation": "🚚",
+  "Workforce Utilisation": "👥",
+  Leadership: "🧭",
+  "Process Implementation": "🛠️",
+  "Client Management": "🤝",
+  Strategy: "♟️",
+  "Project Management": "🗂️",
+  "Supplier Negotiations": "🤝",
+  "Supplier Negotiation": "🤝",
+  "Sales Enhancement": "📈",
+  "Training & Capability Development": "🎓",
+  "Financial Impact Modelling": "📉",
+  Transformation: "🔄",
+  Procurement: "📦",
+  Other: "🔹",
+};
+
+const FACET_ICONS = {
+  industries: INDUSTRY_ICONS,
+  projectTypes: PROJECT_TYPE_ICONS,
+  departments: DEPARTMENT_ICONS,
+  expertise: EXPERTISE_ICONS,
+};
+
 function rankedValues(facetKey, pool) {
   const counts = {};
   pool.forEach((p) => {
@@ -142,6 +210,15 @@ function ProjectFilter({ projects }) {
   const totalSelected = FACETS.reduce((n, f) => n + selected[f.key].length, 0);
   const active = totalSelected > 0 || searching;
 
+  // Items shown in the results heading: every selected tag, in facet order,
+  // plus the search query (quoted) if present.
+  const headingItems = useMemo(() => {
+    const items = [];
+    FACETS.forEach((f) => items.push(...selected[f.key]));
+    if (searching) items.push(`"${query.trim()}"`);
+    return items;
+  }, [selected, searching, query]);
+
   // Build the render list: group clusters first (each as a header row + indented
   // member rows), then ungrouped singles - both internally ranked by search score.
   const renderList = useMemo(() => {
@@ -168,7 +245,7 @@ function ProjectFilter({ projects }) {
     });
 
     const clusters = [...groupMap.entries()].map(([groupName, items]) => {
-      items.sort((a, b) => a.idx - b.idx);
+      items.sort((a, b) => a.project.name.localeCompare(b.project.name));
       const bestScore = Math.max(...items.map((i) => i.score));
       const firstIdx = Math.min(...items.map((i) => i.idx));
       return { groupName, items, bestScore, firstIdx };
@@ -193,91 +270,110 @@ function ProjectFilter({ projects }) {
 
   const shownProjectCount = renderList.filter((r) => r.type === "project").length;
 
+  let resultsHeading;
+  if (!active) {
+    resultsHeading = "Projects";
+  } else if (headingItems.length === 1) {
+    resultsHeading = `${shownProjectCount} project${shownProjectCount === 1 ? "" : "s"} in ${headingItems[0]}`;
+  } else {
+    resultsHeading = `${shownProjectCount} projects · ${headingItems.join(" · ")}`;
+  }
+
   return (
     <div style={{ fontFamily: "'IBM Plex Sans', Arial, sans-serif", maxWidth: 980, margin: "0 auto", padding: "24px 20px", color: "#1b1f23" }}>
-      <div style={{ marginBottom: 16, display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        <h1 style={{ fontSize: 22, fontWeight: 700, margin: 0, letterSpacing: "-0.01em" }}>100+ Projects & Experience</h1>
-        {(totalSelected > 0 || query) && (
-          <button
-            onClick={clearAll}
-            style={{ fontSize: 12, color: "#2563eb", background: "none", border: "none", cursor: "pointer", textDecoration: "underline" }}
-          >
-            clear all filters
-          </button>
+      <div style={{ marginBottom: 24 }}>
+        <h1 style={{ fontSize: 25, fontWeight: 700, margin: 0, letterSpacing: "-0.01em", color: "#312e81", lineHeight: 1.3 }}>
+          100+ projects across industries, functions and business problems.
+        </h1>
+      </div>
+
+      <div style={{ background: "#f3f4f6", border: "1px solid #e5e7eb", borderRadius: 12, padding: "16px 18px", marginBottom: 20 }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 12 }}>
+          <div style={{ fontSize: 14, fontWeight: 600, color: "#6b7280" }}>Explore the experience</div>
+          {(totalSelected > 0 || query) && (
+            <button
+              onClick={clearAll}
+              style={{ fontSize: 12, color: "#2563eb", background: "none", border: "none", cursor: "pointer", textDecoration: "underline" }}
+            >
+              clear all filters
+            </button>
+          )}
+        </div>
+
+        <div style={{ marginBottom: 16 }}>
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search projects (e.g. supply chain optimisation)"
+            style={{
+              width: "100%",
+              boxSizing: "border-box",
+              padding: "10px 14px",
+              fontSize: 14,
+              border: "1px solid #d1d5db",
+              borderRadius: 8,
+              outline: "none",
+            }}
+          />
+        </div>
+
+        {FACETS.map((f) => (
+          <div key={f.key} style={{ marginBottom: 16 }}>
+            <div style={{ fontSize: 11, fontWeight: 600, color: "#9ca3af", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>
+              {f.label}
+            </div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+              {facetOptions[f.key].map(({ value, count }) => {
+                const isOn = selected[f.key].includes(value);
+                const isOther = value === "Other";
+                const icon = FACET_ICONS[f.key][value];
+                return (
+                  <button
+                    key={value}
+                    onClick={() => toggle(f.key, value)}
+                    onMouseEnter={(e) => {
+                      if (isOther) {
+                        setHover({ text: OTHER_LEGEND[f.key], rect: e.currentTarget.getBoundingClientRect() });
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      if (isOther) setHover(null);
+                    }}
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 5,
+                      padding: "6px 12px",
+                      borderRadius: 8,
+                      border: isOn ? "1px solid #1d4ed8" : isOther ? "1px dashed #d1d5db" : "1px solid #d1d5db",
+                      background: isOn ? "#1d4ed8" : "#fff",
+                      color: isOn ? "#fff" : "#4b5563",
+                      fontSize: 13,
+                      fontWeight: isOn ? 600 : 500,
+                      cursor: "pointer",
+                      transition: "all 0.1s ease",
+                    }}
+                  >
+                    {icon && <span style={{ fontSize: 14 }}>{icon}</span>}
+                    {value}
+                    <span style={{ marginLeft: 2, fontSize: 11, opacity: isOn ? 0.85 : 0.55 }}>{count}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div>
+        <div style={{ fontSize: 15, fontWeight: 700, color: "#1b1f23", marginBottom: 10 }}>{resultsHeading}</div>
+
+        {!active && (
+          <div style={{ fontSize: 13, color: "#9ca3af" }}>
+            Select at least one filter or type a search to see matching projects.
+          </div>
         )}
-      </div>
-
-      <div style={{ marginBottom: 18 }}>
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search projects (e.g. supply chain optimisation)"
-          style={{
-            width: "100%",
-            boxSizing: "border-box",
-            padding: "10px 14px",
-            fontSize: 14,
-            border: "1px solid #d1d5db",
-            borderRadius: 8,
-            outline: "none",
-          }}
-        />
-      </div>
-
-      {FACETS.map((f) => (
-        <div key={f.key} style={{ marginBottom: 16 }}>
-          <div style={{ fontSize: 11, fontWeight: 600, color: "#9ca3af", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>
-            {f.label}
-          </div>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-            {facetOptions[f.key].map(({ value, count }) => {
-              const isOn = selected[f.key].includes(value);
-              const isOther = value === "Other";
-              const icon = f.key === "industries" ? INDUSTRY_ICONS[value] : null;
-              return (
-                <button
-                  key={value}
-                  onClick={() => toggle(f.key, value)}
-                  onMouseEnter={(e) => {
-                    if (isOther) {
-                      setHover({ text: OTHER_LEGEND[f.key], rect: e.currentTarget.getBoundingClientRect() });
-                    }
-                  }}
-                  onMouseLeave={() => {
-                    if (isOther) setHover(null);
-                  }}
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: 5,
-                    padding: "6px 12px",
-                    borderRadius: 8,
-                    border: isOn ? "1px solid #1d4ed8" : isOther ? "1px dashed #d1d5db" : "1px solid #d1d5db",
-                    background: isOn ? "#1d4ed8" : "#f9fafb",
-                    color: isOn ? "#fff" : "#4b5563",
-                    fontSize: 13,
-                    fontWeight: isOn ? 600 : 500,
-                    cursor: "pointer",
-                    transition: "all 0.1s ease",
-                  }}
-                >
-                  {icon && <span style={{ fontSize: 14 }}>{icon}</span>}
-                  {value}
-                  <span style={{ marginLeft: 2, fontSize: 11, opacity: isOn ? 0.85 : 0.55 }}>{count}</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      ))}
-
-      <div style={{ marginTop: 20, borderTop: "1px solid #e5e7eb", paddingTop: 16 }}>
-        <div style={{ fontSize: 12, color: "#9ca3af", marginBottom: 8 }}>
-          {!active
-            ? "Select at least one filter or type a search to see matching projects."
-            : `${shownProjectCount} of ${projects.length} projects`}
-        </div>
 
         {active && (
           <div style={{ border: "1px solid #e5e7eb", borderRadius: 10, overflow: "hidden" }}>
