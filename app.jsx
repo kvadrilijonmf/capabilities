@@ -7,6 +7,27 @@ const FACETS = [
   { key: "expertise", label: "Expertise" },
 ];
 
+// Static "Other" legends per facet - shown as a hover tooltip on the "Other" pill.
+const OTHER_LEGEND = {
+  industries: "Utilities, Construction, Infrastructure, Public Sector",
+  projectTypes:
+    "Workforce Utilisation, Category Management, Supply Chain, PMO, Pricing, Tool Development, Transformation",
+  departments: "Administration, Sourcing, Legal, IT",
+  expertise:
+    "PMO, Capability Assessment, Capacity Management, Performance Management, Market Assessment, Commercial Strategy, Process Modelling, Model Development, Insights, Change Management",
+};
+
+const INDUSTRY_ICONS = {
+  "Consumer Goods": "🛒",
+  Retail: "🏬",
+  Logistics: "🚚",
+  Telco: "📡",
+  Banking: "🏦",
+  Healthcare: "🏥",
+  Media: "📺",
+  Other: "🔹",
+};
+
 function rankedValues(facetKey, pool) {
   const counts = {};
   pool.forEach((p) => {
@@ -14,12 +35,12 @@ function rankedValues(facetKey, pool) {
       counts[v] = (counts[v] || 0) + 1;
     });
   });
-  return Object.entries(counts)
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .map(([value, count]) => ({ value, count }));
+  const entries = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  // "Other" always goes last, regardless of its count.
+  entries.sort((a, b) => (a[0] === "Other") - (b[0] === "Other"));
+  return entries.map(([value, count]) => ({ value, count }));
 }
 
-// Does a project pass every facet's selection except the one named in excludeKey?
 function passesOtherFacets(p, selected, excludeKey) {
   return FACETS.every((f) => {
     if (f.key === excludeKey) return true;
@@ -37,8 +58,6 @@ function passesAllFacets(p, selected) {
   });
 }
 
-// Search: split into words, score = number of distinct query words found
-// (case-insensitive substring match) in the project's search text.
 function searchScore(project, words) {
   if (words.length === 0) return 0;
   const haystack = (project.searchText + " " + project.name).toLowerCase();
@@ -77,7 +96,8 @@ function ProjectFilter({ projects }) {
     expertise: [],
   });
   const [query, setQuery] = useState("");
-  const [hovered, setHovered] = useState(null); // { index, rect }
+  // Unified hover state for both project rows and "Other" pills.
+  const [hover, setHover] = useState(null); // { text, rect }
 
   const queryWords = useMemo(
     () =>
@@ -90,8 +110,6 @@ function ProjectFilter({ projects }) {
   );
   const searching = queryWords.length > 0;
 
-  // Pool used for computing each facet's live counts: everything passing
-  // the OTHER facets AND the current search query (but not this facet itself).
   const facetOptions = useMemo(() => {
     const out = {};
     FACETS.forEach((f) => {
@@ -124,9 +142,9 @@ function ProjectFilter({ projects }) {
   const totalSelected = FACETS.reduce((n, f) => n + selected[f.key].length, 0);
   const active = totalSelected > 0 || searching;
 
-  // Build the display list: filter by facets + search, rank by search score,
-  // then cluster group members together consecutively.
-  const displayList = useMemo(() => {
+  // Build the render list: group clusters first (each as a header row + indented
+  // member rows), then ungrouped singles - both internally ranked by search score.
+  const renderList = useMemo(() => {
     if (!active) return [];
 
     const matched = [];
@@ -137,32 +155,48 @@ function ProjectFilter({ projects }) {
       matched.push({ project: p, score, idx });
     });
 
-    const ordered = searching
-      ? [...matched].sort((a, b) => b.score - a.score || a.idx - b.idx)
-      : matched;
-
-    const seenGroups = new Set();
-    const result = [];
-    ordered.forEach((item) => {
+    const groupMap = new Map(); // groupName -> items[]
+    const singles = [];
+    matched.forEach((item) => {
       const g = item.project.group;
       if (g) {
-        if (seenGroups.has(g)) return;
-        seenGroups.add(g);
-        const groupItems = matched
-          .filter((m) => m.project.group === g)
-          .sort((a, b) => a.idx - b.idx);
-        result.push(...groupItems);
+        if (!groupMap.has(g)) groupMap.set(g, []);
+        groupMap.get(g).push(item);
       } else {
-        result.push(item);
+        singles.push(item);
       }
     });
-    return result;
+
+    const clusters = [...groupMap.entries()].map(([groupName, items]) => {
+      items.sort((a, b) => a.idx - b.idx);
+      const bestScore = Math.max(...items.map((i) => i.score));
+      const firstIdx = Math.min(...items.map((i) => i.idx));
+      return { groupName, items, bestScore, firstIdx };
+    });
+    clusters.sort((a, b) =>
+      searching ? b.bestScore - a.bestScore || a.firstIdx - b.firstIdx : a.firstIdx - b.firstIdx
+    );
+    singles.sort((a, b) => (searching ? b.score - a.score || a.idx - b.idx : a.idx - b.idx));
+
+    const rows = [];
+    clusters.forEach((c) => {
+      rows.push({ type: "groupHeader", key: "g-" + c.groupName, groupName: c.groupName });
+      c.items.forEach((item) => {
+        rows.push({ type: "project", key: "p-" + item.idx, project: item.project, indented: true });
+      });
+    });
+    singles.forEach((item) => {
+      rows.push({ type: "project", key: "p-" + item.idx, project: item.project, indented: false });
+    });
+    return rows;
   }, [projects, selected, active, searching, queryWords]);
+
+  const shownProjectCount = renderList.filter((r) => r.type === "project").length;
 
   return (
     <div style={{ fontFamily: "'IBM Plex Sans', Arial, sans-serif", maxWidth: 980, margin: "0 auto", padding: "24px 20px", color: "#1b1f23" }}>
       <div style={{ marginBottom: 16, display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        <h1 style={{ fontSize: 22, fontWeight: 700, margin: 0, letterSpacing: "-0.01em" }}>Project Database</h1>
+        <h1 style={{ fontSize: 22, fontWeight: 700, margin: 0, letterSpacing: "-0.01em" }}>100+ Projects & Experience</h1>
         {(totalSelected > 0 || query) && (
           <button
             onClick={clearAll}
@@ -173,7 +207,6 @@ function ProjectFilter({ projects }) {
         )}
       </div>
 
-      {/* Search box */}
       <div style={{ marginBottom: 18 }}>
         <input
           type="text"
@@ -200,14 +233,27 @@ function ProjectFilter({ projects }) {
           <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
             {facetOptions[f.key].map(({ value, count }) => {
               const isOn = selected[f.key].includes(value);
+              const isOther = value === "Other";
+              const icon = f.key === "industries" ? INDUSTRY_ICONS[value] : null;
               return (
                 <button
                   key={value}
                   onClick={() => toggle(f.key, value)}
+                  onMouseEnter={(e) => {
+                    if (isOther) {
+                      setHover({ text: OTHER_LEGEND[f.key], rect: e.currentTarget.getBoundingClientRect() });
+                    }
+                  }}
+                  onMouseLeave={() => {
+                    if (isOther) setHover(null);
+                  }}
                   style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 5,
                     padding: "6px 12px",
                     borderRadius: 8,
-                    border: isOn ? "1px solid #1d4ed8" : "1px solid #d1d5db",
+                    border: isOn ? "1px solid #1d4ed8" : isOther ? "1px dashed #d1d5db" : "1px solid #d1d5db",
                     background: isOn ? "#1d4ed8" : "#f9fafb",
                     color: isOn ? "#fff" : "#4b5563",
                     fontSize: 13,
@@ -216,8 +262,9 @@ function ProjectFilter({ projects }) {
                     transition: "all 0.1s ease",
                   }}
                 >
+                  {icon && <span style={{ fontSize: 14 }}>{icon}</span>}
                   {value}
-                  <span style={{ marginLeft: 5, fontSize: 11, opacity: isOn ? 0.85 : 0.55 }}>{count}</span>
+                  <span style={{ marginLeft: 2, fontSize: 11, opacity: isOn ? 0.85 : 0.55 }}>{count}</span>
                 </button>
               );
             })}
@@ -229,38 +276,49 @@ function ProjectFilter({ projects }) {
         <div style={{ fontSize: 12, color: "#9ca3af", marginBottom: 8 }}>
           {!active
             ? "Select at least one filter or type a search to see matching projects."
-            : `${displayList.length} of ${projects.length} projects`}
+            : `${shownProjectCount} of ${projects.length} projects`}
         </div>
 
         {active && (
           <div style={{ border: "1px solid #e5e7eb", borderRadius: 10, overflow: "hidden" }}>
-            {displayList.length === 0 ? (
+            {renderList.length === 0 ? (
               <div style={{ padding: 32, textAlign: "center", color: "#9ca3af", fontSize: 14 }}>
                 No projects match this combination of filters.
               </div>
             ) : (
-              displayList.map((item, i) => {
-                const p = item.project;
-                const isGrouped = !!p.group;
-                const prevGroup = i > 0 ? displayList[i - 1].project.group : null;
-                const nextGroup = i < displayList.length - 1 ? displayList[i + 1].project.group : null;
-                const isFirstOfGroup = isGrouped && p.group !== prevGroup;
-                const isLastOfGroup = isGrouped && p.group !== nextGroup;
+              renderList.map((row, i) => {
+                if (row.type === "groupHeader") {
+                  return (
+                    <div
+                      key={row.key}
+                      style={{
+                        padding: "10px 16px",
+                        fontSize: 13.5,
+                        fontWeight: 700,
+                        background: "#eef2ff",
+                        borderBottom: "1px solid #f0f1f3",
+                        borderTop: i > 0 ? "1px solid #e5e7eb" : "none",
+                        color: "#312e81",
+                      }}
+                    >
+                      {row.groupName}
+                    </div>
+                  );
+                }
+                const p = row.project;
                 return (
                   <div
-                    key={i}
+                    key={row.key}
                     onMouseEnter={(e) =>
-                      setHovered({ index: i, rect: e.currentTarget.getBoundingClientRect() })
+                      setHover({ text: p.description, rect: e.currentTarget.getBoundingClientRect() })
                     }
-                    onMouseLeave={() => setHovered(null)}
+                    onMouseLeave={() => setHover(null)}
                     style={{
-                      padding: "12px 16px",
-                      borderBottom: i < displayList.length - 1 ? "1px solid #f0f1f3" : "none",
+                      padding: `10px 16px 10px ${row.indented ? 40 : 16}px`,
+                      borderBottom: i < renderList.length - 1 ? "1px solid #f0f1f3" : "none",
                       fontSize: 14,
                       lineHeight: 1.5,
-                      background: isGrouped ? "#f8fafc" : "#fff",
-                      borderLeft: isGrouped ? "3px solid #93c5fd" : "3px solid transparent",
-                      marginTop: isFirstOfGroup ? 2 : 0,
+                      background: row.indented ? "#fafbff" : "#fff",
                       cursor: "default",
                     }}
                   >
@@ -273,9 +331,7 @@ function ProjectFilter({ projects }) {
         )}
       </div>
 
-      {hovered && (
-        <Tooltip text={displayList[hovered.index].project.description} anchorRect={hovered.rect} />
-      )}
+      {hover && <Tooltip text={hover.text} anchorRect={hover.rect} />}
     </div>
   );
 }

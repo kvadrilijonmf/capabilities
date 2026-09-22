@@ -31,7 +31,7 @@
       "Company-wide"
     ],
     "projectTypes": [
-      "Workforce Utilisation"
+      "Other"
     ],
     "expertise": [
       "Data & Analytics",
@@ -49,7 +49,7 @@
       "Company-wide"
     ],
     "projectTypes": [
-      "Workforce Utilisation"
+      "Other"
     ],
     "expertise": [
       "Tool Development",
@@ -176,7 +176,7 @@
       "Commercial"
     ],
     "projectTypes": [
-      "Category Management"
+      "Other"
     ],
     "expertise": [
       "Tool Development",
@@ -197,7 +197,7 @@
       "Commercial"
     ],
     "projectTypes": [
-      "Pricing"
+      "Other"
     ],
     "expertise": [
       "Pricing",
@@ -218,7 +218,7 @@
       "Strategy"
     ],
     "projectTypes": [
-      "Tool Development"
+      "Other"
     ],
     "expertise": [
       "Tool Development",
@@ -265,7 +265,7 @@
       "Cost Allocation & Profitability",
       "Financial Modelling",
       "Data & Analytics",
-      "Process Modelling",
+      "Other",
       "Tool Development"
     ]
   },
@@ -320,7 +320,7 @@
       "Supply Chain"
     ],
     "projectTypes": [
-      "Supply Chain"
+      "Other"
     ],
     "expertise": [
       "Data & Analytics",
@@ -342,14 +342,14 @@
       "Supply Chain"
     ],
     "projectTypes": [
-      "Supply Chain"
+      "Other"
     ],
     "expertise": [
       "Supply Chain Optimisation",
       "Data & Analytics",
       "Process Optimisation",
       "Strategic Assessment",
-      "cenario Modelling"
+      "Scenario Modelling"
     ]
   },
   {
@@ -445,7 +445,7 @@
       "Other"
     ],
     "departments": [
-      "Legal"
+      "Other"
     ],
     "projectTypes": [
       "Assessment"
@@ -718,7 +718,7 @@
       "Implementation"
     ],
     "expertise": [
-      "PMO",
+      "Other",
       "Supplier Negotiations",
       "Procurement",
       "Process Implementation"
@@ -777,7 +777,7 @@
       "Other"
     ],
     "departments": [
-      "IT"
+      "Other"
     ],
     "projectTypes": [
       "Strategy"
@@ -798,7 +798,7 @@
       "Other"
     ],
     "departments": [
-      "Sourcing"
+      "Other"
     ],
     "projectTypes": [
       "Strategy"
@@ -1182,7 +1182,7 @@
     ],
     "expertise": [
       "Tool Development",
-      "Capacity Management",
+      "Other",
       "Data & Analytics",
       "Process Optimisation"
     ]
@@ -1225,7 +1225,7 @@
     "expertise": [
       "Data & Analytics",
       "Commercial Effectiveness",
-      "Performance Management",
+      "Other",
       "Tool Development"
     ]
   },
@@ -1238,7 +1238,7 @@
       "Consumer Goods"
     ],
     "departments": [
-      "Administration"
+      "Other"
     ],
     "projectTypes": [
       "Process Optimisation"
@@ -1303,7 +1303,7 @@
       "Finance"
     ],
     "projectTypes": [
-      "Transformation"
+      "Other"
     ],
     "expertise": [
       "Data & Analytics",
@@ -1329,7 +1329,7 @@
     "expertise": [
       "Strategic Assessment",
       "Data & Analytics",
-      "Market Assessment"
+      "Other"
     ]
   },
   {
@@ -1451,7 +1451,7 @@
       "Assessment"
     ],
     "expertise": [
-      "Capability Assessment",
+      "Other",
       "Data & Analytics",
       "Tool Development"
     ]
@@ -1515,7 +1515,7 @@
       "Cost Allocation & Profitability",
       "Scenario Modelling",
       "Strategic Assessment",
-      "Model Development"
+      "Other"
     ]
   },
   {
@@ -1597,7 +1597,7 @@
       "Leadership",
       "Strategic Assessment",
       "Data & Analytics",
-      "Insights",
+      "Other",
       "Client Management"
     ]
   },
@@ -1618,7 +1618,7 @@
     "expertise": [
       "Data & Analytics",
       "Pricing",
-      "Commercial Strategy",
+      "Other",
       "Leadership",
       "Client Management"
     ]
@@ -1777,7 +1777,7 @@
       "Operations"
     ],
     "projectTypes": [
-      "PMO"
+      "Other"
     ],
     "expertise": [
       "Project Management",
@@ -1806,7 +1806,7 @@
       "Tool Development",
       "Data & Analytics",
       "Process Optimisation",
-      "Change Management"
+      "Other"
     ]
   },
   {
@@ -1923,7 +1923,7 @@
       "Banking"
     ],
     "departments": [
-      "Administration"
+      "Other"
     ],
     "projectTypes": [
       "Process Optimisation"
